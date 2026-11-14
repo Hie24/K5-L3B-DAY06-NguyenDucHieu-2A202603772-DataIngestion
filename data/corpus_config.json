@@ -1,0 +1,183 @@
+{
+  "source_id": "nist_ai_600_1",
+  "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+  "publisher": "National Institute of Standards and Technology",
+  "publication_identifier": "NIST AI 600-1",
+  "publication_date": "July 2024",
+  "source_path": "starter/data/TailieuLAB06.pdf",
+  "source_url": "https://doi.org/10.6028/NIST.AI.600-1",
+  "license_or_permission": {
+    "basis": "user_confirmed_permission",
+    "statement": "Học viên xác nhận được dùng tài liệu cho bài lab và chia sẻ công khai. Không tự gán giấy phép Creative Commons hay suy ra quyền tái phân phối chỉ từ việc tải miễn phí.",
+    "permission_confirmed_on": "2026-11-14",
+    "provided_by": "Học viên cung cấp file local; chưa xác nhận nơi tải file gốc.",
+    "publisher_identification": "Tên tài liệu, NIST và DOI được đối chiếu từ bìa/trang thông tin của chính PDF."
+  },
+  "minimum_content_pages": 30,
+  "included_physical_pages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+  ],
+  "excluded_pages": [
+    {
+      "pages": [
+        1,
+        2
+      ],
+      "reason": "Bìa và trang tên xuất bản"
+    },
+    {
+      "pages": [
+        3
+      ],
+      "reason": "Giới thiệu NIST, lời cảm ơn và thông tin xuất bản"
+    },
+    {
+      "pages": [
+        4
+      ],
+      "reason": "Mục lục"
+    },
+    {
+      "pages": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "reason": "Appendix B - References"
+    }
+  ],
+  "metadata_groups": [
+    {
+      "document_part": "main_body",
+      "pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "basis": "Nội dung chính trước tiêu đề Appendix A ở trang vật lý 51; đối chiếu mục lục trang 4."
+    },
+    {
+      "document_part": "appendix_a",
+      "pages": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "basis": "Appendix A bắt đầu ở trang vật lý 51, kết thúc trước Appendix B ở trang 58."
+    }
+  ],
+  "visual_review": {
+    "reviewer": "assistant",
+    "physical_pages": [
+      5,
+      10,
+      18,
+      51
+    ],
+    "method": "Rendered PDF pages inspected; prose, headings and action tables compared against extracted text.",
+    "limitation": "Trích text theo thứ tự đọc không tái tạo nguyên bảng nhiều cột; không suy ra quan hệ hàng/cột chỉ từ khoảng trắng."
+  }
+}

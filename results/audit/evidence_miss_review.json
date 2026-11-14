@@ -1,0 +1,18 @@
+{
+  "reviewer": "Codex assistant; source-based review, not a claim of human grading",
+  "accepted_equivalences": [],
+  "notes": {
+    "A:D04": "Chunk đầu nói về hậu quả và citation sai do confabulation nhưng không giữ định nghĩa tự tin đưa ra nội dung sai; giữ miss theo quy tắc đủ evidence, cần tác giả rà soát nếu muốn chấp nhận tương đương.",
+    "A:D11": "Có trang 18 nhưng chunk chứa GV-1.3-002, không phải hành động GV-1.2-001 được hỏi.",
+    "A:D14": "Có trang 34 nhưng đoạn truy xuất chỉ đến MS-2.2-002, chưa có quyền withdraw/revoke ở MS-2.2-003.",
+    "B:D03": "Các đoạn về cập nhật tương lai/context of use không trả câu loại trừ speculative risks.",
+    "B:D04": "Các đoạn misinformation và fact-checking không đủ định nghĩa hiện tượng tự tin sinh nội dung sai.",
+    "B:D05": "Không có câu xác nhận chưa có phương pháp đồng thuận về environmental impacts.",
+    "B:D11": "Các đoạn decommissioning, retention và incident reporting không trả hành động GV-1.2-001.",
+    "C:D03": "Giống B; câu không có filter.",
+    "C:D04": "Giống B; câu không có filter.",
+    "C:D05": "Giống B; câu không có filter.",
+    "C:D11": "Filter main_body vẫn không trả đúng hành động GV-1.2-001."
+  },
+  "raw_metrics_unchanged": true
+}

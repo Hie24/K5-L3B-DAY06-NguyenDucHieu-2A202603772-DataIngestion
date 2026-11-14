@@ -45,3 +45,40 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+## Chạy bài làm LAB06 (PowerShell)
+
+Bản chạy dùng Python 3.12.14, embedding local `intfloat/multilingual-e5-small` (ONNX qint8, 384 chiều) và PostgreSQL + pgvector Docker. Không cần API key. PDF nằm ở `starter/data/TailieuLAB06.pdf`; nguồn, quyền sử dụng và các trang được chọn nằm ở [data/manifest.json](data/manifest.json).
+
+Từ thư mục gốc repo, cài môi trường và kiểm tra database:
+
+```powershell
+cd starter
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.lock.txt
+if (-not (Test-Path .env)) { Copy-Item .env.example .env }
+docker compose -p day6_student_starter up -d --wait
+.\.venv\Scripts\python.exe -B scripts/check_setup.py
+.\.venv\Scripts\python.exe -B scripts/download_model.py
+```
+
+Nếu PowerShell chưa nhận lệnh `docker` trên máy hiện tại, thêm thư mục Docker vào PATH của phiên trước khi chạy Compose:
+
+```powershell
+$env:Path = "$env:LOCALAPPDATA\Programs\DockerDesktop\resources\bin;$env:Path"
+```
+
+Giữ thư mục làm việc ở `starter/`. Chạy theo thứ tự sau, dùng corpus/chunk và benchmark đã khóa trong repo:
+
+```powershell
+$env:PYTHONIOENCODING = 'utf-8'
+.\.venv\Scripts\python.exe -B -m src.run ingest --results-dir results/reproduction
+.\.venv\Scripts\python.exe -B -m src.run dev --results-dir results/reproduction
+.\.venv\Scripts\python.exe -B -m src.run test --results-dir results/reproduction
+$env:LAB06_INTEGRATION = '1'
+.\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
+```
+
+Đường dẫn `--results-dir` tính từ gốc repo. Mỗi lượt chạy lại cần một thư mục kết quả mới; chương trình từ chối ghi đè trace. Pha `dev` chọn cấu hình trước khi pha `test` được phép chạy. Nạp lại database giữ nguyên ID và không nhân đôi chunk.
+
+Kết quả gốc ở [results/summary.json](results/summary.json), trace ở `results/benchmark/`, nhãn đã được tác giả rà soát ở `results/audit/`. Xác nhận audit hiện tại chỉ áp dụng cho các đầu vào có hash trong `artifacts/author_review.json`. Xem [báo cáo cá nhân](report/individual/2A202603772_NguyenDucHieu.md) và [nhật ký thí nghiệm](artifacts/experiment_log.csv).

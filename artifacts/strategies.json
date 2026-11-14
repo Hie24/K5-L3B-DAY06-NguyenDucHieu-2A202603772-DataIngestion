@@ -1,0 +1,43 @@
+{
+  "status": "configured_for_preparation_not_retrieval",
+  "A": {
+    "method": "fixed_size",
+    "chunk_size": 800,
+    "overlap": 100,
+    "filter": false,
+    "hypothesis": "Cửa sổ cố định dễ tái lập; overlap giữ thêm ngữ cảnh nhưng có thể cắt giữa ý và làm tăng số ký tự lưu."
+  },
+  "B": {
+    "method": "by_paragraph",
+    "chunk_size": 800,
+    "overlap": 0,
+    "filter": false,
+    "hypothesis": "Ưu tiên ranh giới đoạn/heading/action row có thể giữ ý tốt hơn; bảng nhiều cột và đoạn dài vẫn có thể bị tách."
+  },
+  "C": {
+    "method": "reuse_B",
+    "chunk_size": 800,
+    "overlap": 0,
+    "filter_field": "document_part",
+    "filter_only_when_supplied": true,
+    "hypothesis": "Giới hạn phạm vi theo yêu cầu phần chính/Appendix A có thể giảm kết quả ngoài phạm vi; không suy ra filter từ gold."
+  },
+  "controlled_comparison": {
+    "A_B": "Thay chính sách chunk, bao gồm overlap; không tuyên bố tách riêng tác động boundary và overlap.",
+    "B_C": "Giữ nguyên chunk ID, text và metadata; chỉ thay filter có sẵn từ câu hỏi."
+  },
+  "shared": {
+    "source_pages": "data/manifest.json",
+    "benchmark": "benchmark/questions.json",
+    "metric": "cosine",
+    "vector_store": "PostgreSQL + pgvector",
+    "embedding": "local; model/version/dimensions to be pinned before stage 4"
+  },
+  "not_measured": [
+    "retrieval metrics",
+    "embedding tokens",
+    "embedding cost",
+    "vector ingest",
+    "human coherence/grounding"
+  ]
+}

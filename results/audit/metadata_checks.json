@@ -1,0 +1,1667 @@
+[
+  {
+    "strategy": "A",
+    "question_id": "T01",
+    "rank": 1,
+    "chunk_id": "6e9799e87f468a5caeaa8ea1788bdbc27f21e082c22ec536ea46a7296983de11",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 16,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p016",
+      "char_end": 2907,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 2952,
+      "char_start": 2800,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 12,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 16
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T01",
+    "rank": 2,
+    "chunk_id": "ee709d57b8204772ad977e3911ab91a1706714d86c442298dc28a3b285f5fc90",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 12,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p012",
+      "char_end": 800,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 3387,
+      "char_start": 0,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 8,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 12
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T01",
+    "rank": 3,
+    "chunk_id": "94d5cea37a05ffdc639c9b9c1730dcb6173be115e11e3b7f51b03323b95c20bb",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 40,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p040",
+      "char_end": 2993,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 3042,
+      "char_start": 2800,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 36,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 40
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T02",
+    "rank": 1,
+    "chunk_id": "08e7a65837f621997317b27cace01fa335c6bc5324d9a94d0162f7ea73f126c5",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 54,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p054",
+      "char_end": 800,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 3462,
+      "char_start": 0,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 50,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 54
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T02",
+    "rank": 2,
+    "chunk_id": "4730224c64da8058cc067c8c802df9696a806cd5835655778ae3d4e5cda950b8",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 29,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p029",
+      "char_end": 799,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 2301,
+      "char_start": 0,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 25,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 29
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T02",
+    "rank": 3,
+    "chunk_id": "a527d42312309fa9b84b361db18841b4933c334640ee518bea2ffd61934783bc",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 24,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p024",
+      "char_end": 2200,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 2261,
+      "char_start": 1400,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 20,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 24
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T03",
+    "rank": 1,
+    "chunk_id": "961c159b62f1e36e977c65c8ff7bcb19ea1bdcfb39a36ea4eefbf928c28413ae",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 55,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p055",
+      "char_end": 2200,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 3420,
+      "char_start": 1400,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 51,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 55
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T03",
+    "rank": 2,
+    "chunk_id": "aa3cb60de1aeb5f8b16edda78ddcdf6506de8fbc298378c62a372897735d87a4",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 31,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p031",
+      "char_end": 1500,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 2459,
+      "char_start": 700,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 27,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 31
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T03",
+    "rank": 3,
+    "chunk_id": "1cfd3eafcbc602b317a3b7eb3b0113232798dba8d197736d193c3adcbc2a5c7c",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 32,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p032",
+      "char_end": 2200,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 2439,
+      "char_start": 1400,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 28,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 32
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T04",
+    "rank": 1,
+    "chunk_id": "447fb832526ff0ad206039a8b6f4f7418975aa71086de37e69be723be063207a",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 8,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p008",
+      "char_end": 2200,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 3548,
+      "char_start": 1400,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 4,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 8
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T04",
+    "rank": 2,
+    "chunk_id": "101170ef1afe3c4dea8ce5bd7d0a490ff51eb765eeaa865373f2809094c349c6",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 26,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p026",
+      "char_end": 2199,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 2990,
+      "char_start": 1400,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 22,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 26
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T04",
+    "rank": 3,
+    "chunk_id": "2dc5643ae8c4d03ecb6d7515f6c6f8b6d7975f113a73780939a6b644960f480c",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 49,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p049",
+      "char_end": 2200,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 2296,
+      "char_start": 1401,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 45,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 49
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T05",
+    "rank": 1,
+    "chunk_id": "1c219f836bd847a73344ca5ddaf497d67556f70e221a05a9d120f580ffd772e1",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 57,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p057",
+      "char_end": 799,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 1444,
+      "char_start": 0,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 53,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 57
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T05",
+    "rank": 2,
+    "chunk_id": "e367d80e6997ed5dda4077ad84d1e0a012f7a37cce659a850dc10be3dea735af",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 57,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p057",
+      "char_end": 1420,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 1444,
+      "char_start": 701,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 53,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 57
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "A",
+    "question_id": "T05",
+    "rank": 3,
+    "chunk_id": "2dc5643ae8c4d03ecb6d7515f6c6f8b6d7975f113a73780939a6b644960f480c",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 49,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p049",
+      "char_end": 2200,
+      "chunking": "fixed_size",
+      "language": "en",
+      "raw_chars": 2296,
+      "char_start": 1401,
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      },
+      "printed_page": 45,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 49
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T01",
+    "rank": 1,
+    "chunk_id": "cdc6efe33308798c0e02fa2ec7c53ccaa6624bc3d3531ad19edaf80d1167d433",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 14,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p014",
+      "char_end": 3218,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3256,
+      "char_start": 3151,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 10,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 14
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T01",
+    "rank": 2,
+    "chunk_id": "58631cb9e61d21cda642ba00e7b52b2930c13ff2af47410db80bcaef5829bb31",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 7,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p007",
+      "char_end": 876,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3658,
+      "char_start": 457,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 3,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 7
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T01",
+    "rank": 3,
+    "chunk_id": "65cdecdde24d4364ea5a980c9410f7dacffb7cc9f62053b6576d98d49c890812",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 12,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p012",
+      "char_end": 904,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3387,
+      "char_start": 106,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 8,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 12
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T02",
+    "rank": 1,
+    "chunk_id": "f11dd0c62b7e659e89aaf173de2b7e48e7ad30435ea05f98b780073fd93efebc",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 54,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p054",
+      "char_end": 597,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3462,
+      "char_start": 0,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 50,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 54
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T02",
+    "rank": 2,
+    "chunk_id": "bae7faea3a3842b59e1715aca277725f80524406d900cdcdf0a21528519b6adc",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 6,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p006",
+      "char_end": 632,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3356,
+      "char_start": 0,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 2,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 6
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T02",
+    "rank": 3,
+    "chunk_id": "d2eba8d14c18d7390630519002b1fa367d3be486eb37bb7e0ad5c24f3bdb2d65",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 32,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p032",
+      "char_end": 777,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 2439,
+      "char_start": 537,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 28,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 32
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T03",
+    "rank": 1,
+    "chunk_id": "eefa7c86dd564825e2e1ab526135eb68ba8da5600f96e7e36eb7ffcd1853052a",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 55,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p055",
+      "char_end": 2151,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3420,
+      "char_start": 1559,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 51,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 55
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T03",
+    "rank": 2,
+    "chunk_id": "6dcc2e1fcd6da84c042525cf9701af193614aa74ff6558ead0ba692fd3984a6d",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 25,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p025",
+      "char_end": 995,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 2712,
+      "char_start": 768,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 21,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 25
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T03",
+    "rank": 3,
+    "chunk_id": "f9f7f06098cdbb8d04ccaf09fd408382167d7b639527ce74aa89163f259b610e",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 28,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p028",
+      "char_end": 1162,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 2063,
+      "char_start": 925,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 24,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 28
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T04",
+    "rank": 1,
+    "chunk_id": "9f602c929e60718c3889316e3cb6f44fdba2d3730cbbc6bfc13bdd23c81b82af",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 56,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p056",
+      "char_end": 3241,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3281,
+      "char_start": 2870,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 52,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 56
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T04",
+    "rank": 2,
+    "chunk_id": "bae7faea3a3842b59e1715aca277725f80524406d900cdcdf0a21528519b6adc",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 6,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p006",
+      "char_end": 632,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3356,
+      "char_start": 0,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 2,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 6
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T04",
+    "rank": 3,
+    "chunk_id": "fdd1ae00c558afb79585f39c7c6d69c03a9a902572611c3bd77bb81661d1b9a3",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 56,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p056",
+      "char_end": 2111,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3281,
+      "char_start": 1917,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 52,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 56
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T05",
+    "rank": 1,
+    "chunk_id": "2d6767cacb1e71fb9dcf39f13ee34e6f554cc83a0d43a62e87c7e6cfaa4a926c",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 57,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p057",
+      "char_end": 1420,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 1444,
+      "char_start": 1114,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 53,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 57
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T05",
+    "rank": 2,
+    "chunk_id": "59487cbf522b28aabc1f6ac6f2117758a73052289ad8dbc8bdfad978eaa6f3ca",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 57,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p057",
+      "char_end": 1113,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 1444,
+      "char_start": 336,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 53,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 57
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "B",
+    "question_id": "T05",
+    "rank": 3,
+    "chunk_id": "d3083ba9c2f42eb2bc17dfb6823165be201602b0e02366d0a3c4fd2bb05be012",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 49,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p049",
+      "char_end": 1774,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 2296,
+      "char_start": 1524,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 45,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 49
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T01",
+    "rank": 1,
+    "chunk_id": "f0209f72d21b793ac06dd0ac7684a002f154e393f255714abba4ae4f548d85fc",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 51,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p051",
+      "char_end": 1914,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 2988,
+      "char_start": 1384,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 47,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 51
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T01",
+    "rank": 2,
+    "chunk_id": "fdd1ae00c558afb79585f39c7c6d69c03a9a902572611c3bd77bb81661d1b9a3",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 56,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p056",
+      "char_end": 2111,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3281,
+      "char_start": 1917,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 52,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 56
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T01",
+    "rank": 3,
+    "chunk_id": "d73719c70a536aa4e272f428495f8843cc36913ddae9ea6a639c7342841f7c3b",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 53,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p053",
+      "char_end": 1624,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3138,
+      "char_start": 963,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 49,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 53
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T02",
+    "rank": 1,
+    "chunk_id": "f11dd0c62b7e659e89aaf173de2b7e48e7ad30435ea05f98b780073fd93efebc",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 54,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p054",
+      "char_end": 597,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3462,
+      "char_start": 0,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 50,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 54
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T02",
+    "rank": 2,
+    "chunk_id": "bae7faea3a3842b59e1715aca277725f80524406d900cdcdf0a21528519b6adc",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 6,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p006",
+      "char_end": 632,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3356,
+      "char_start": 0,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 2,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 6
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T02",
+    "rank": 3,
+    "chunk_id": "d2eba8d14c18d7390630519002b1fa367d3be486eb37bb7e0ad5c24f3bdb2d65",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 32,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p032",
+      "char_end": 777,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 2439,
+      "char_start": 537,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 28,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 32
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T03",
+    "rank": 1,
+    "chunk_id": "eefa7c86dd564825e2e1ab526135eb68ba8da5600f96e7e36eb7ffcd1853052a",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 55,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p055",
+      "char_end": 2151,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3420,
+      "char_start": 1559,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 51,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 55
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T03",
+    "rank": 2,
+    "chunk_id": "c031ae1e4f869183942f7944cba61218a43f240c148b75cb8548a0600feb0c0b",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 55,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p055",
+      "char_end": 2946,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3420,
+      "char_start": 2152,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 51,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 55
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T03",
+    "rank": 3,
+    "chunk_id": "ddf9bc0a36f0dd7b1274e2fb6dfc18796fa1b76dfd8b9b947416aa817ab4faed",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 55,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p055",
+      "char_end": 3380,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3420,
+      "char_start": 3250,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 51,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 55
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T04",
+    "rank": 1,
+    "chunk_id": "9f602c929e60718c3889316e3cb6f44fdba2d3730cbbc6bfc13bdd23c81b82af",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 56,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p056",
+      "char_end": 3241,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3281,
+      "char_start": 2870,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 52,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 56
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T04",
+    "rank": 2,
+    "chunk_id": "bae7faea3a3842b59e1715aca277725f80524406d900cdcdf0a21528519b6adc",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 6,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p006",
+      "char_end": 632,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3356,
+      "char_start": 0,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 2,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 6
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T04",
+    "rank": 3,
+    "chunk_id": "fdd1ae00c558afb79585f39c7c6d69c03a9a902572611c3bd77bb81661d1b9a3",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 56,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p056",
+      "char_end": 2111,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 3281,
+      "char_start": 1917,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 52,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 56
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T05",
+    "rank": 1,
+    "chunk_id": "2d6767cacb1e71fb9dcf39f13ee34e6f554cc83a0d43a62e87c7e6cfaa4a926c",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 57,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p057",
+      "char_end": 1420,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 1444,
+      "char_start": 1114,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 53,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 57
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T05",
+    "rank": 2,
+    "chunk_id": "59487cbf522b28aabc1f6ac6f2117758a73052289ad8dbc8bdfad978eaa6f3ca",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 57,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p057",
+      "char_end": 1113,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 1444,
+      "char_start": 336,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 53,
+      "document_part": "appendix_a",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 57
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  },
+  {
+    "strategy": "C",
+    "question_id": "T05",
+    "rank": 3,
+    "chunk_id": "d3083ba9c2f42eb2bc17dfb6823165be201602b0e02366d0a3c4fd2bb05be012",
+    "source": "https://doi.org/10.6028/NIST.AI.600-1",
+    "physical_page": 49,
+    "metadata": {
+      "page_id": "nist_ai_600_1:p049",
+      "char_end": 1774,
+      "chunking": "by_paragraph",
+      "language": "en",
+      "raw_chars": 2296,
+      "char_start": 1524,
+      "parameters": {
+        "overlap": 0,
+        "max_size": 800
+      },
+      "printed_page": 45,
+      "document_part": "main_body",
+      "document_type": "technical_report",
+      "extraction_status": "ok",
+      "document_id": "nist_ai_600_1",
+      "source": "https://doi.org/10.6028/NIST.AI.600-1",
+      "page": 49
+    },
+    "checks": {
+      "source": true,
+      "page": true,
+      "document_id": true,
+      "document_part": true,
+      "printed_page": true,
+      "span_text": true
+    },
+    "mechanically_complete_and_correct": true,
+    "source_review": "Assistant source comparison reviewed and approved by author; see artifacts/author_review.json."
+  }
+]

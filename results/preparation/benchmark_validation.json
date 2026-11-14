@@ -1,0 +1,188 @@
+{
+  "questions": 20,
+  "dev": 15,
+  "test": 5,
+  "filter_questions": 4,
+  "checks": [
+    {
+      "id": "D01",
+      "split": "dev",
+      "primary_page": 5,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D02",
+      "split": "dev",
+      "primary_page": 6,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D03",
+      "split": "dev",
+      "primary_page": 7,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D04",
+      "split": "dev",
+      "primary_page": 10,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D05",
+      "split": "dev",
+      "primary_page": 12,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D06",
+      "split": "dev",
+      "primary_page": 13,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D07",
+      "split": "dev",
+      "primary_page": 14,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D08",
+      "split": "dev",
+      "primary_page": 15,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D09",
+      "split": "dev",
+      "primary_page": 17,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D10",
+      "split": "dev",
+      "primary_page": 17,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D11",
+      "split": "dev",
+      "primary_page": 18,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D12",
+      "split": "dev",
+      "primary_page": 21,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D13",
+      "split": "dev",
+      "primary_page": 28,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D14",
+      "split": "dev",
+      "primary_page": 34,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "D15",
+      "split": "dev",
+      "primary_page": 44,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "T01",
+      "split": "test",
+      "primary_page": 53,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "T02",
+      "split": "test",
+      "primary_page": 54,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "T03",
+      "split": "test",
+      "primary_page": 55,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "T04",
+      "split": "test",
+      "primary_page": 56,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    },
+    {
+      "id": "T05",
+      "split": "test",
+      "primary_page": 57,
+      "quote_found": true,
+      "filter_valid": true,
+      "gold_occurrences": 1,
+      "method": "literal quote after whitespace normalization; assistant checked question/answer context; not a user audit label"
+    }
+  ]
+}

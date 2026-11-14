@@ -1,0 +1,21 @@
+{
+  "reviewer": "Nguyễn Đức Hiếu",
+  "student_id": "2A202603772",
+  "decision": "approved_proposed_labels",
+  "statement": "Tôi đã rà soát và đồng ý các nhãn đề xuất",
+  "confirmed_at": "2026-11-14T04:18:04.492561+00:00",
+  "scope": {
+    "coherence_records": 30,
+    "grounding_records": 15,
+    "metadata_records": 45
+  },
+  "method": "Tác giả xác nhận qua hội thoại sau khi được cung cấp REVIEW.md và JSON có nguồn/chunk. Nhãn ban đầu do trợ lý đề xuất; không phải hai lượt chấm độc lập hoặc làm mù.",
+  "input_sha256": {
+    "artifacts/audit_assessments.json": "f0b955ace40983064d7787b4ccdc8330c1f0c6d35c869865f0ca1baf6030185e",
+    "results/benchmark/test_traces.jsonl": "8d213cdaeb42350246764aa19ed2b9e310cca71ba29731115997b9e1359a84e2",
+    "benchmark/coherence_positions.json": "3378c016ed3814489af86355e75868e81ab5cc1bc8ec3ee00fa13c357fa9592d",
+    "results/preparation/normalized_pages.jsonl": "28291d5ffb86cdb67c788b334015e3351365e7c59387c9e5518f7851e5d09869",
+    "results/preparation/chunks_A.jsonl": "b13065e795fa1e26b0e5223ea7a9632cb328d588c0e434f7557cc5e418b66bc5",
+    "results/preparation/chunks_B.jsonl": "c946731071e62c4e2c4acf35baf33afe7e1b104c8d1fa3e45db060ca27a5df57"
+  }
+}

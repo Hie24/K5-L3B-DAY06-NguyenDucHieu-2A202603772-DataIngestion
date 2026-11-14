@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-11-14T03:31:45.707592+00:00",
+  "sha256": {
+    "benchmark/questions.json": "25af304379c28d5847128ecbadbd21107c34d3d4df0791916e138450b82404ad",
+    "benchmark/protocol.json": "7e250e95637f17d727ac57990caf118806a046685c4787217ea3f898c97d2925",
+    "data/corpus_config.json": "fade8fc474afbbbc42ed41ed708f7fab05c6a8bdc129fd3a396e63661b87b2ba",
+    "results/preparation/normalized_pages.jsonl": "28291d5ffb86cdb67c788b334015e3351365e7c59387c9e5518f7851e5d09869"
+  },
+  "retrieval_run_at_freeze": false,
+  "note": "Freeze after gold/source verification and before generating chunk outputs; no embedding or retrieval run."
+}

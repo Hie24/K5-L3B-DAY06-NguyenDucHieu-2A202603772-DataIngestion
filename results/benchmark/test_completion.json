@@ -1,0 +1,22 @@
+{
+  "completed_at": "2026-11-14T04:04:45.750385+00:00",
+  "selected_strategy": "A",
+  "input_sha256": {
+    "benchmark/questions.json": "25af304379c28d5847128ecbadbd21107c34d3d4df0791916e138450b82404ad",
+    "benchmark/protocol.json": "7e250e95637f17d727ac57990caf118806a046685c4787217ea3f898c97d2925",
+    "data/corpus_config.json": "fade8fc474afbbbc42ed41ed708f7fab05c6a8bdc129fd3a396e63661b87b2ba",
+    "results/preparation/normalized_pages.jsonl": "28291d5ffb86cdb67c788b334015e3351365e7c59387c9e5518f7851e5d09869",
+    "artifacts/strategies.json": "fde6449ff39aed7ba46c1b9bf289c2e6bb7f1148f1c69bd8b1f5aa3c8adbc928",
+    "artifacts/run_config.json": "ab2a323b57ef9e413315498d241011bfd3bf695a4bce4adf62fde59d2169b1e4",
+    "artifacts/model_files.json": "0cef3129ff571d9ba7ecff88d0e1e5087a0a565604020e77e03fc81391656644",
+    "results/preparation/chunks_A.jsonl": "b13065e795fa1e26b0e5223ea7a9632cb328d588c0e434f7557cc5e418b66bc5",
+    "results/preparation/chunks_B.jsonl": "c946731071e62c4e2c4acf35baf33afe7e1b104c8d1fa3e45db060ca27a5df57",
+    "starter/src/run.py": "fc6d6c33a73ab753b9319718f3820fd02969f9dd11dab5fe0640fe47bdc9f28c",
+    "starter/src/embeddings.py": "41ae6953d0a79c95ecd0d68c0612bd8201bac9e30cdd2baf112e0d1f17725d7e",
+    "starter/src/store.py": "96e31900a9b872a8987d51a889701099acebe5fe292b305d8d9fd6234f7d1d87",
+    "starter/src/evaluation.py": "040a6143630f8ce43d6366cb93ffd99b1480ecf71d8398b6ac9f8f8c00c7fedc",
+    "starter/src/models.py": "9f26a14cd6139c7b608df067894274308ae7b5c2c2ccd10566079c345fae1710"
+  },
+  "test_trace_sha256": "8d213cdaeb42350246764aa19ed2b9e310cca71ba29731115997b9e1359a84e2",
+  "no_test_based_tuning": true
+}

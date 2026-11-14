@@ -1,0 +1,118 @@
+{
+  "completed_at": "2026-11-14T04:01:11.690462+00:00",
+  "model": {
+    "model_name": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "onnx_file": "onnx/model_qint8_avx512_vnni.onnx",
+    "backend": "onnxruntime CPUExecutionProvider",
+    "quantization": "official repository qint8 ONNX export; same file for A/B/C",
+    "dimensions": 384,
+    "max_tokens": 512,
+    "batch_size": 16,
+    "threads": 4,
+    "query_prefix": "query: ",
+    "document_prefix": "passage: ",
+    "pooling": "attention-mask weighted mean",
+    "normalization": "L2 unit length",
+    "truncation_policy": "reject oversized inputs; never silently truncate",
+    "metric": "cosine",
+    "search": "exact PostgreSQL + pgvector SQL",
+    "top_k": 3,
+    "model_dir": "starter/.cache/models/multilingual-e5-small",
+    "source_model_card": "https://huggingface.co/intfloat/multilingual-e5-small",
+    "selection": "benchmark/protocol.json",
+    "cost_policy": "No paid API; local CPU/electricity not priced."
+  },
+  "model_load_seconds": 0.8366568999999799,
+  "total_ingestion_wall_seconds": 15.633440900000096,
+  "strategies": {
+    "A": {
+      "chunks": 213,
+      "characters": 152704,
+      "embedding_seconds": 6.49491019999914,
+      "embedding_tokens": {
+        "texts": 213,
+        "tokens": 36131,
+        "max_tokens": 216,
+        "truncated": 0
+      },
+      "first_upsert_seconds": 0.1143143000008422,
+      "repeat_upsert_seconds": 0.10159660000044823,
+      "first_count": 213,
+      "second_count": 213,
+      "api_cost_usd": 0
+    },
+    "B": {
+      "chunks": 381,
+      "characters": 136394,
+      "embedding_seconds": 8.164245500000106,
+      "embedding_tokens": {
+        "texts": 381,
+        "tokens": 32940,
+        "max_tokens": 197,
+        "truncated": 0
+      },
+      "first_upsert_seconds": 0.17331220000050962,
+      "repeat_upsert_seconds": 0.1593086000002586,
+      "first_count": 381,
+      "second_count": 381,
+      "api_cost_usd": 0
+    },
+    "C": {
+      "chunks": 381,
+      "characters": 136394,
+      "embedding_seconds": 0,
+      "embedding_tokens": {
+        "texts": 381,
+        "tokens": 32940,
+        "max_tokens": 197,
+        "truncated": 0
+      },
+      "first_upsert_seconds": null,
+      "repeat_upsert_seconds": null,
+      "first_count": 381,
+      "second_count": 381,
+      "api_cost_usd": 0,
+      "embedding_reused_from": "B",
+      "both_upserts_seconds": 0.31336840000039956
+    }
+  },
+  "persistence_after_reconnect": {
+    "A": 213,
+    "B": 381,
+    "C": 381
+  },
+  "B_C_identical_rows": 381,
+  "database": {
+    "postgresql": "16.16 (Debian 16.16-1.pgdg12+1)",
+    "pgvector": "0.8.7",
+    "table_bytes": 5423104
+  },
+  "input_sha256": {
+    "benchmark/questions.json": "25af304379c28d5847128ecbadbd21107c34d3d4df0791916e138450b82404ad",
+    "benchmark/protocol.json": "7e250e95637f17d727ac57990caf118806a046685c4787217ea3f898c97d2925",
+    "data/corpus_config.json": "fade8fc474afbbbc42ed41ed708f7fab05c6a8bdc129fd3a396e63661b87b2ba",
+    "results/preparation/normalized_pages.jsonl": "28291d5ffb86cdb67c788b334015e3351365e7c59387c9e5518f7851e5d09869",
+    "artifacts/strategies.json": "fde6449ff39aed7ba46c1b9bf289c2e6bb7f1148f1c69bd8b1f5aa3c8adbc928",
+    "artifacts/run_config.json": "ab2a323b57ef9e413315498d241011bfd3bf695a4bce4adf62fde59d2169b1e4",
+    "artifacts/model_files.json": "0cef3129ff571d9ba7ecff88d0e1e5087a0a565604020e77e03fc81391656644",
+    "results/preparation/chunks_A.jsonl": "b13065e795fa1e26b0e5223ea7a9632cb328d588c0e434f7557cc5e418b66bc5",
+    "results/preparation/chunks_B.jsonl": "c946731071e62c4e2c4acf35baf33afe7e1b104c8d1fa3e45db060ca27a5df57",
+    "starter/src/run.py": "fc6d6c33a73ab753b9319718f3820fd02969f9dd11dab5fe0640fe47bdc9f28c",
+    "starter/src/embeddings.py": "41ae6953d0a79c95ecd0d68c0612bd8201bac9e30cdd2baf112e0d1f17725d7e",
+    "starter/src/store.py": "96e31900a9b872a8987d51a889701099acebe5fe292b305d8d9fd6234f7d1d87",
+    "starter/src/evaluation.py": "040a6143630f8ce43d6366cb93ffd99b1480ecf71d8398b6ac9f8f8c00c7fedc",
+    "starter/src/models.py": "9f26a14cd6139c7b608df067894274308ae7b5c2c2ccd10566079c345fae1710"
+  },
+  "search_mode": "exact; no approximate vector index",
+  "cost_note": "No paid API. Local hardware/electricity not priced.",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "onnxruntime": "1.32.0",
+    "tokenizers": "0.23.3",
+    "huggingface-hub": "1.33.0",
+    "psycopg": "3.3.8",
+    "pypdf": "6.21.4"
+  }
+}

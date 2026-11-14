@@ -1,0 +1,23 @@
+{
+  "model_name": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "onnx_file": "onnx/model_qint8_avx512_vnni.onnx",
+  "backend": "onnxruntime CPUExecutionProvider",
+  "quantization": "official repository qint8 ONNX export; same file for A/B/C",
+  "dimensions": 384,
+  "max_tokens": 512,
+  "batch_size": 16,
+  "threads": 4,
+  "query_prefix": "query: ",
+  "document_prefix": "passage: ",
+  "pooling": "attention-mask weighted mean",
+  "normalization": "L2 unit length",
+  "truncation_policy": "reject oversized inputs; never silently truncate",
+  "metric": "cosine",
+  "search": "exact PostgreSQL + pgvector SQL",
+  "top_k": 3,
+  "model_dir": "starter/.cache/models/multilingual-e5-small",
+  "source_model_card": "https://huggingface.co/intfloat/multilingual-e5-small",
+  "selection": "benchmark/protocol.json",
+  "cost_policy": "No paid API; local CPU/electricity not priced."
+}

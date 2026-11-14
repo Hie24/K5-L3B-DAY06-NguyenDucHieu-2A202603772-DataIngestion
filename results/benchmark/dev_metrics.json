@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "total": 15,
+      "hit1_n": 9,
+      "hit3_n": 12,
+      "hit1": 0.6,
+      "hit3": 0.8
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "total": 15,
+      "hit1_n": 9,
+      "hit3_n": 11,
+      "hit1": 0.6,
+      "hit3": 0.7333333333333333
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "total": 15,
+      "hit1_n": 9,
+      "hit3_n": 11,
+      "hit1": 0.6,
+      "hit3": 0.7333333333333333
+    }
+  ],
+  "query_embedding_seconds": 0.04340109999975539,
+  "query_embedding_tokens": {
+    "texts": 15,
+    "tokens": 419,
+    "max_tokens": 36,
+    "truncated": 0
+  },
+  "model_load_seconds": 0.856286999999611,
+  "query_vectors_reused_across_strategies": true,
+  "api_cost_usd": 0,
+  "completed_at": "2026-11-14T04:01:24.567674+00:00"
+}

@@ -1,0 +1,872 @@
+[
+  {
+    "strategy": "A",
+    "document_id": "nist_ai_600_1",
+    "page": 5,
+    "char_offset": 200,
+    "chunk_id": "e13cac714e378f607dcec5a19bfb33ffd704a0fcf7657adfd38199c1ec2ca523",
+    "text": "1. Introduction\nThis document is a cross-sectoral profile of and companion resource for the AI Risk Management\nFramework (AI RMF 1.0) for Generative AI,1 pursuant to President Biden’s Executive Order (EO) 14110 on\nSafe, Secure, and Trustworthy Artificial Intelligence.2 The AI RMF was released in January 2023, and is\nintended for voluntary use and to improve the ability of organizations to incorporate trustworthiness\nconsiderations into the design, development, use, and evaluation of AI products, services, and systems.\nA profile is an implementation of the AI RMF functions, categories, and subcategories for a specific\nsetting, application, or technology – in this case, Generative AI (GAI) – based on the requirements, risk\ntolerance, and resources of the Framework user. AI RMF profiles assis",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p005",
+      "raw_chars": 2750,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 1,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 800,
+      "chunking": "fixed_size",
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Định nghĩa và mục đích ban đầu đọc được, nhưng cửa sổ kết thúc giữa từ 'assist' ở đoạn tiếp theo.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "A",
+    "document_id": "nist_ai_600_1",
+    "page": 6,
+    "char_offset": 200,
+    "chunk_id": "b797fcfb7434eb3cb98264f78ef0b8671fc2b11955a34aee094a1ea084e7f778",
+    "text": "This work was informed by public feedback and consultations with diverse stakeholder groups as part of NIST’s\nGenerative AI Public Working Group (GAI PWG). The GAI PWG was an open, transparent, and collaborative\nprocess, facilitated via a virtual workspace, to obtain multistakeholder input on GAI risk management and to\ninform NIST’s approach.\nThe focus of the GAI PWG was limited to four primary considerations relevant to GAI: Governance, Content\nProvenance, Pre-deployment Testing, and Incident Disclosure (further described in Appendix A). As such, the\nsuggested actions in this document primarily address these considerations.\nFuture revisions of this profile will include additional AI RMF subcategories, risks, and suggested actions based\non additional considerations of GAI as the space evol",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p006",
+      "raw_chars": 3356,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 2,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 800,
+      "chunking": "fixed_size",
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Có ngữ cảnh GAI PWG và bốn chủ đề; câu nói về các bản cập nhật tương lai bị cắt cuối chunk.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "A",
+    "document_id": "nist_ai_600_1",
+    "page": 7,
+    "char_offset": 200,
+    "chunk_id": "a09484c176cba7c61491514c355523ef5b46919d548038b01cabee3fe4704988",
+    "text": "the abuse, misuse, and unsafe repurposing by humans (adversarial or not), and others result\nfrom interactions between a human and an AI system.\n• Time scale: GAI risks may materialize abruptly or across extended periods. Examples include\nimmediate (and/or prolonged) emotional harm and potential risks to physical safety due to the\ndistribution of harmful deepfake images, or the long-term effect of disinformation on societal\ntrust in public institutions.\nThe presence of risks and where they fall along the dimensions above will vary depending on the\ncharacteristics of the GAI model, system, or use case at hand. These characteristics include but are not\nlimited to GAI model or system architecture, training mechanisms and libraries, data types used for\ntraining or fine-tuning, levels of model a",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p007",
+      "raw_chars": 3658,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 3,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 800,
+      "chunking": "fixed_size",
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Bắt đầu bằng phần câu từ trang trước và kết thúc giữa danh sách đặc điểm; ý Time scale vẫn đọc được.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "A",
+    "document_id": "nist_ai_600_1",
+    "page": 8,
+    "char_offset": 200,
+    "chunk_id": "67ab8d952354c2461d969118a2d26fefe8a269f2f11f922432af46144b9ce94a",
+    "text": "1. CBRN Information or Capabilities: Eased access to or synthesis of materially nefarious\ninformation or design capabilities related to chemical, biological, radiological, or nuclear (CBRN)\nweapons or other dangerous materials or agents.\n2. Confabulation: The production of confidently stated but erroneous or false content (known\ncolloquially as “hallucinations” or “fabrications”) by which users may be misled or deceived.6\n3. Dangerous, Violent, or Hateful Content: Eased production of and access to violent, inciting,\nradicalizing, or threatening content as well as recommendations to carry out self-harm or\nconduct illegal activities. Includes difficulty controlling public exposure to hateful and disparaging\nor stereotyping content.\n4. Data Privacy: Impacts due to leakage and unauthorized use",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p008",
+      "raw_chars": 3548,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 4,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 800,
+      "chunking": "fixed_size",
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Các định nghĩa CBRN và Confabulation đủ, nhưng định nghĩa Data Privacy ở cuối bị cắt.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "A",
+    "document_id": "nist_ai_600_1",
+    "page": 9,
+    "char_offset": 200,
+    "chunk_id": "f36b54d81284763a1bfe68241729f19428e853a1cb5ae56222587730cae6a554",
+    "text": "operations, or other cyberattacks; increased attack surface for targeted cyberattacks, which may\ncompromise a system’s availability or the confidentiality or integrity of training data, code, or\nmodel weights.\n10. Intellectual Property: Eased production or replication of alleged copyrighted, trademarked, or\nlicensed content without authorization (possibly in situations which do not fall under fair use);\neased exposure of trade secrets; or plagiarism or illegal replication.\n11. Obscene, Degrading, and/or Abusive Content: Eased production of and access to obscene,\ndegrading, and/or abusive imagery which can cause harm, including synthetic child sexual abuse\nmaterial (CSAM), and nonconsensual intimate images (NCII) of adults.\n12. Value Chain and Component Integration: Non-transparent or untra",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p009",
+      "raw_chars": 3293,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 5,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 800,
+      "chunking": "fixed_size",
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Đầu chunk là phần tiếp nối Information Security, cuối lại cắt mục Value Chain; chỉ một số định nghĩa ở giữa đầy đủ.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "A",
+    "document_id": "nist_ai_600_1",
+    "page": 10,
+    "char_offset": 200,
+    "chunk_id": "81fea4afa6c08292320e2922b3c0630ef649d5a798976b977f88bc66e1d35e3b",
+    "text": "2.2. Confabulation\n“Confabulation” refers to a phenomenon in which GAI systems generate and confidently present\nerroneous or false content in response to prompts. Confabulations also include generated outputs that\ndiverge from the prompts or other input or that contradict previously generated statements in the same\ncontext. These phenomena are colloquially also referred to as “hallucinations” or “fabrications.”\nConfabulations can occur across GAI outputs and contexts.9,10 Confabulations are a natural result of the\nway generative models are designed: they generate outputs that approximate the statistical distribution\nof their training data; for example, LLMs predict the next token or word in a sentence or phrase. While\nsuch statistical prediction can produce factually accurate and consisten",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p010",
+      "raw_chars": 3254,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 6,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 800,
+      "chunking": "fixed_size",
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Định nghĩa Confabulation đầy đủ, nhưng đoạn giải thích cơ chế mô hình bị cắt giữa từ ở cuối.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "A",
+    "document_id": "nist_ai_600_1",
+    "page": 11,
+    "char_offset": 200,
+    "chunk_id": "479520f8cdd6869aa0fbd99d8adb036ba86d2eab8250d31eb6f9b0de6fd339d3",
+    "text": "unethical behavior. Text-to-image models also make it easy to create images that could be used to\npromote dangerous or violent messages. Similar concerns are present for other GAI media, including\nvideo and audio. GAI may also produce content that recommends self-harm or criminal/illegal activities.\nMany current systems restrict model outputs to limit certain content or in response to certain prompts,\nbut this approach may still produce harmful recommendations in response to other less-explicit, novel\nprompts (also relevant to CBRN Information or Capabilities, Data Privacy, Information Security, and\nObscene, Degrading and/or Abusive Content). Crafting such prompts deliberately is known as\n“jailbreaking,” or, manipulating prompts to circumvent output controls. Limitations of GAI systems can",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p011",
+      "raw_chars": 3491,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 7,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 800,
+      "chunking": "fixed_size",
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Đầu là mảnh câu từ trang trước; đoạn jailbreaking có ý nghĩa nhưng câu cuối chưa kết thúc.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "A",
+    "document_id": "nist_ai_600_1",
+    "page": 12,
+    "char_offset": 200,
+    "chunk_id": "ee709d57b8204772ad977e3911ab91a1706714d86c442298dc28a3b285f5fc90",
+    "text": "Trustworthy AI Characteristics: Accountable and Transparent, Privacy Enhanced, Safe, Secure and\nResilient\n2.5. Environmental Impacts\nTraining, maintaining, and operating (running inference on) GAI systems are resource-intensive activities,\nwith potentially large energy and environmental footprints. Energy and carbon emissions vary based on\nwhat is being done with the GAI model (i.e., pre-training, fine-tuning, inference), the modality of the\ncontent, hardware used, and type of task or application.\nCurrent estimates suggest that training a single transformer LLM can emit as much carbon as 300 round-\ntrip flights between San Francisco and New York. In a study comparing energy consumption and carbon\nemissions for LLM inference, generative tasks (e.g., text summarization) were found to be more",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p012",
+      "raw_chars": 3387,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 8,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 800,
+      "chunking": "fixed_size",
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Trộn phần Trustworthy Characteristics của mục trước với Environmental Impacts và cắt giữa câu so sánh năng lượng.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "A",
+    "document_id": "nist_ai_600_1",
+    "page": 13,
+    "char_offset": 200,
+    "chunk_id": "a091c9963e94a0fd0129e14da2656352f5ac090ac833d7641865634f1185a838",
+    "text": "and reduced content diversity). Overly homogenized outputs can themselves be incorrect, or they may\nlead to unreliable decision-making or amplify harmful biases. These phenomena can flow from\nfoundation models to downstream models and systems, with the foundation models acting as\n“bottlenecks,” or single points of failure.\nOverly homogenized content can contribute to “model collapse.” Model collapse can occur when model\ntraining over-relies on synthetic data, resulting in data points disappearing from the distribution of the\nnew model’s outputs. In addition to threatening the robustness of the model overall, model collapse\ncould lead to homogenized outputs, including by amplifying any homogenization from the model used to\ngenerate the synthetic training data.\nTrustworthy AI Characteristics",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p013",
+      "raw_chars": 2932,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 9,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 800,
+      "chunking": "fixed_size",
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Đầu thiếu phần câu trang trước; đoạn model collapse đọc được nhưng nhãn Trustworthy Characteristics bị cắt cuối.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "A",
+    "document_id": "nist_ai_600_1",
+    "page": 14,
+    "char_offset": 200,
+    "chunk_id": "7acdcdf5a2d604a1b22fecb2ee26db4e8f93c5b8beabbbeefad1616d85a56056",
+    "text": "GAI systems can ease the unintentional production or dissemination of false, inaccurate, or misleading\ncontent (misinformation) at scale, particularly if the content stems from confabulations.\nGAI systems can also ease the deliberate production or dissemination of false or misleading information\n(disinformation) at scale, where an actor has the explicit intent to deceive or cause harm to others. Even\nvery subtle changes to text or images can manipulate human and machine perception.\nSimilarly, GAI systems could enable a higher degree of sophistication for malicious actors to produce\ndisinformation that is targeted towards specific demographics. Current and emerging multimodal models\nmake it possible to generate both text-based disinformation and highly realistic “deepfakes” – that is,\nsynth",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p014",
+      "raw_chars": 3256,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 10,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 800,
+      "chunking": "fixed_size",
+      "parameters": {
+        "size": 800,
+        "overlap": 100
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Phân biệt misinformation/disinformation rõ, nhưng đoạn deepfakes tiếp theo bị cắt giữa từ.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "B",
+    "document_id": "nist_ai_600_1",
+    "page": 5,
+    "char_offset": 200,
+    "chunk_id": "3dad906cae82679a9032559e1798100cbefdc97fbba9bca4d3346b84093b3a52",
+    "text": "1. Introduction\nThis document is a cross-sectoral profile of and companion resource for the AI Risk Management\nFramework (AI RMF 1.0) for Generative AI,1 pursuant to President Biden’s Executive Order (EO) 14110 on\nSafe, Secure, and Trustworthy Artificial Intelligence.2 The AI RMF was released in January 2023, and is\nintended for voluntary use and to improve the ability of organizations to incorporate trustworthiness\nconsiderations into the design, development, use, and evaluation of AI products, services, and systems.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p005",
+      "raw_chars": 2750,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 1,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 523,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 2,
+    "reason": "Có heading Introduction và đoạn mở đầu hoàn chỉnh, nêu rõ bối cảnh cùng mục đích AI RMF.",
+    "same_text_as_B": false,
+    "author_score": 2,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "B",
+    "document_id": "nist_ai_600_1",
+    "page": 6,
+    "char_offset": 200,
+    "chunk_id": "bae7faea3a3842b59e1715aca277725f80524406d900cdcdf0a21528519b6adc",
+    "text": "This work was informed by public feedback and consultations with diverse stakeholder groups as part of NIST’s\nGenerative AI Public Working Group (GAI PWG). The GAI PWG was an open, transparent, and collaborative\nprocess, facilitated via a virtual workspace, to obtain multistakeholder input on GAI risk management and to\ninform NIST’s approach.\nThe focus of the GAI PWG was limited to four primary considerations relevant to GAI: Governance, Content\nProvenance, Pre-deployment Testing, and Incident Disclosure (further described in Appendix A). As such, the\nsuggested actions in this document primarily address these considerations.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p006",
+      "raw_chars": 3356,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 2,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 632,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 2,
+    "reason": "Hai đoạn về GAI PWG và bốn chủ đề kết thúc trọn câu, có chủ thể và ngữ cảnh.",
+    "same_text_as_B": false,
+    "author_score": 2,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "B",
+    "document_id": "nist_ai_600_1",
+    "page": 7,
+    "char_offset": 200,
+    "chunk_id": "1763ecd8655f9862e20f0075b1801cc58dd35c2e786aeb53c988dd83c315de66",
+    "text": "the abuse, misuse, and unsafe repurposing by humans (adversarial or not), and others result\nfrom interactions between a human and an AI system.\n• Time scale: GAI risks may materialize abruptly or across extended periods. Examples include\nimmediate (and/or prolonged) emotional harm and potential risks to physical safety due to the\ndistribution of harmful deepfake images, or the long-term effect of disinformation on societal\ntrust in public institutions.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p007",
+      "raw_chars": 3658,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 3,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 456,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Mục Time scale hoàn chỉnh nhưng đầu chunk vẫn là phần câu từ trang trước.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "B",
+    "document_id": "nist_ai_600_1",
+    "page": 8,
+    "char_offset": 200,
+    "chunk_id": "58e134004abf3fc061dd2dd85ab1fc2f5ca1cecfd5028f58b5430331f64f14fd",
+    "text": "1. CBRN Information or Capabilities: Eased access to or synthesis of materially nefarious\ninformation or design capabilities related to chemical, biological, radiological, or nuclear (CBRN)\nweapons or other dangerous materials or agents.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p008",
+      "raw_chars": 3548,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 4,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 237,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 2,
+    "reason": "Giữ trọn một định nghĩa CBRN với tên mục và các đối tượng được định nghĩa.",
+    "same_text_as_B": false,
+    "author_score": 2,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "B",
+    "document_id": "nist_ai_600_1",
+    "page": 9,
+    "char_offset": 200,
+    "chunk_id": "379cf8e08bcb8c6510f637873d7bb6e395e2bc5f8f603ab83102cfcc56b1f228",
+    "text": "operations, or other cyberattacks; increased attack surface for targeted cyberattacks, which may\ncompromise a system’s availability or the confidentiality or integrity of training data, code, or\nmodel weights.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p009",
+      "raw_chars": 3293,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 5,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 209,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 0,
+    "reason": "Chỉ còn phần cuối định nghĩa Information Security từ trang trước; không có tên rủi ro và thiếu chủ thể để hiểu độc lập.",
+    "same_text_as_B": false,
+    "author_score": 0,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "B",
+    "document_id": "nist_ai_600_1",
+    "page": 10,
+    "char_offset": 200,
+    "chunk_id": "de2d702caa14ec78adcd3064fba04a6fecf040e39a83c397cd1d810a248c39ac",
+    "text": "2.2. Confabulation\n“Confabulation” refers to a phenomenon in which GAI systems generate and confidently present\nerroneous or false content in response to prompts. Confabulations also include generated outputs that\ndiverge from the prompts or other input or that contradict previously generated statements in the same\ncontext. These phenomena are colloquially also referred to as “hallucinations” or “fabrications.”",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p010",
+      "raw_chars": 3254,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 6,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 414,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 2,
+    "reason": "Heading và định nghĩa Confabulation cùng các cách gọi tương đương đầy đủ.",
+    "same_text_as_B": false,
+    "author_score": 2,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "B",
+    "document_id": "nist_ai_600_1",
+    "page": 11,
+    "char_offset": 200,
+    "chunk_id": "8349fc3f61c106624c72dc60ffbefdf779abd5dc7638771d714b2e8a49301d0a",
+    "text": "unethical behavior. Text-to-image models also make it easy to create images that could be used to\npromote dangerous or violent messages. Similar concerns are present for other GAI media, including\nvideo and audio. GAI may also produce content that recommends self-harm or criminal/illegal activities.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p011",
+      "raw_chars": 3491,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 7,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 300,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Có các câu về text-to-image và media khác, nhưng mở đầu bằng mảnh câu 'unethical behavior' thiếu ngữ cảnh trước.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "B",
+    "document_id": "nist_ai_600_1",
+    "page": 12,
+    "char_offset": 200,
+    "chunk_id": "65cdecdde24d4364ea5a980c9410f7dacffb7cc9f62053b6576d98d49c890812",
+    "text": "2.5. Environmental Impacts\nTraining, maintaining, and operating (running inference on) GAI systems are resource-intensive activities,\nwith potentially large energy and environmental footprints. Energy and carbon emissions vary based on\nwhat is being done with the GAI model (i.e., pre-training, fine-tuning, inference), the modality of the\ncontent, hardware used, and type of task or application.\nCurrent estimates suggest that training a single transformer LLM can emit as much carbon as 300 round-\ntrip flights between San Francisco and New York. In a study comparing energy consumption and carbon\nemissions for LLM inference, generative tasks (e.g., text summarization) were found to be more energy-\nand carbon-i ntensive th an discriminative or non-generative tasks (e.g., text classification).",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p012",
+      "raw_chars": 3387,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 8,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 106,
+      "char_end": 904,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 2,
+    "reason": "Heading Environmental Impacts và hai đoạn liên quan kết thúc trọn ý; còn lỗi tách chữ từ PDF nhưng vẫn hiểu nội dung.",
+    "same_text_as_B": false,
+    "author_score": 2,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "B",
+    "document_id": "nist_ai_600_1",
+    "page": 13,
+    "char_offset": 200,
+    "chunk_id": "f130b7a44172b86bf540784fdde80ccbd40de7a745b8f0d6165aa6f770088be1",
+    "text": "and reduced content diversity). Overly homogenized outputs can themselves be incorrect, or they may\nlead to unreliable decision-making or amplify harmful biases. These phenomena can flow from\nfoundation models to downstream models and systems, with the foundation models acting as\n“bottlenecks,” or single points of failure.\nOverly homogenized content can contribute to “model collapse.” Model collapse can occur when model\ntraining over-relies on synthetic data, resulting in data points disappearing from the distribution of the\nnew model’s outputs. In addition to threatening the robustness of the model overall, model collapse\ncould lead to homogenized outputs, including by amplifying any homogenization from the model used to\ngenerate the synthetic training data.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p013",
+      "raw_chars": 2932,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 9,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 769,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Đoạn model collapse đầy đủ nhưng mở đầu là phần tiếp nối câu chưa có ở chunk này.",
+    "same_text_as_B": false,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "B",
+    "document_id": "nist_ai_600_1",
+    "page": 14,
+    "char_offset": 200,
+    "chunk_id": "a6764bcc27b3fc922f86c2f19c26a62a0e13e955a9235c2d3a7b5fd4a6cda89b",
+    "text": "GAI systems can ease the unintentional production or dissemination of false, inaccurate, or misleading\ncontent (misinformation) at scale, particularly if the content stems from confabulations.\nGAI systems can also ease the deliberate production or dissemination of false or misleading information\n(disinformation) at scale, where an actor has the explicit intent to deceive or cause harm to others. Even\nvery subtle changes to text or images can manipulate human and machine perception.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p014",
+      "raw_chars": 3256,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 10,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 486,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 2,
+    "reason": "Giữ đầy đủ hai đoạn phân biệt misinformation và disinformation, đủ điều kiện về chủ ý.",
+    "same_text_as_B": false,
+    "author_score": 2,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "C",
+    "document_id": "nist_ai_600_1",
+    "page": 5,
+    "char_offset": 200,
+    "chunk_id": "3dad906cae82679a9032559e1798100cbefdc97fbba9bca4d3346b84093b3a52",
+    "text": "1. Introduction\nThis document is a cross-sectoral profile of and companion resource for the AI Risk Management\nFramework (AI RMF 1.0) for Generative AI,1 pursuant to President Biden’s Executive Order (EO) 14110 on\nSafe, Secure, and Trustworthy Artificial Intelligence.2 The AI RMF was released in January 2023, and is\nintended for voluntary use and to improve the ability of organizations to incorporate trustworthiness\nconsiderations into the design, development, use, and evaluation of AI products, services, and systems.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p005",
+      "raw_chars": 2750,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 1,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 523,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 2,
+    "reason": "Có heading Introduction và đoạn mở đầu hoàn chỉnh, nêu rõ bối cảnh cùng mục đích AI RMF.",
+    "same_text_as_B": true,
+    "author_score": 2,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "C",
+    "document_id": "nist_ai_600_1",
+    "page": 6,
+    "char_offset": 200,
+    "chunk_id": "bae7faea3a3842b59e1715aca277725f80524406d900cdcdf0a21528519b6adc",
+    "text": "This work was informed by public feedback and consultations with diverse stakeholder groups as part of NIST’s\nGenerative AI Public Working Group (GAI PWG). The GAI PWG was an open, transparent, and collaborative\nprocess, facilitated via a virtual workspace, to obtain multistakeholder input on GAI risk management and to\ninform NIST’s approach.\nThe focus of the GAI PWG was limited to four primary considerations relevant to GAI: Governance, Content\nProvenance, Pre-deployment Testing, and Incident Disclosure (further described in Appendix A). As such, the\nsuggested actions in this document primarily address these considerations.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p006",
+      "raw_chars": 3356,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 2,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 632,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 2,
+    "reason": "Hai đoạn về GAI PWG và bốn chủ đề kết thúc trọn câu, có chủ thể và ngữ cảnh.",
+    "same_text_as_B": true,
+    "author_score": 2,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "C",
+    "document_id": "nist_ai_600_1",
+    "page": 7,
+    "char_offset": 200,
+    "chunk_id": "1763ecd8655f9862e20f0075b1801cc58dd35c2e786aeb53c988dd83c315de66",
+    "text": "the abuse, misuse, and unsafe repurposing by humans (adversarial or not), and others result\nfrom interactions between a human and an AI system.\n• Time scale: GAI risks may materialize abruptly or across extended periods. Examples include\nimmediate (and/or prolonged) emotional harm and potential risks to physical safety due to the\ndistribution of harmful deepfake images, or the long-term effect of disinformation on societal\ntrust in public institutions.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p007",
+      "raw_chars": 3658,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 3,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 456,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Mục Time scale hoàn chỉnh nhưng đầu chunk vẫn là phần câu từ trang trước.",
+    "same_text_as_B": true,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "C",
+    "document_id": "nist_ai_600_1",
+    "page": 8,
+    "char_offset": 200,
+    "chunk_id": "58e134004abf3fc061dd2dd85ab1fc2f5ca1cecfd5028f58b5430331f64f14fd",
+    "text": "1. CBRN Information or Capabilities: Eased access to or synthesis of materially nefarious\ninformation or design capabilities related to chemical, biological, radiological, or nuclear (CBRN)\nweapons or other dangerous materials or agents.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p008",
+      "raw_chars": 3548,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 4,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 237,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 2,
+    "reason": "Giữ trọn một định nghĩa CBRN với tên mục và các đối tượng được định nghĩa.",
+    "same_text_as_B": true,
+    "author_score": 2,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "C",
+    "document_id": "nist_ai_600_1",
+    "page": 9,
+    "char_offset": 200,
+    "chunk_id": "379cf8e08bcb8c6510f637873d7bb6e395e2bc5f8f603ab83102cfcc56b1f228",
+    "text": "operations, or other cyberattacks; increased attack surface for targeted cyberattacks, which may\ncompromise a system’s availability or the confidentiality or integrity of training data, code, or\nmodel weights.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p009",
+      "raw_chars": 3293,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 5,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 209,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 0,
+    "reason": "Chỉ còn phần cuối định nghĩa Information Security từ trang trước; không có tên rủi ro và thiếu chủ thể để hiểu độc lập.",
+    "same_text_as_B": true,
+    "author_score": 0,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "C",
+    "document_id": "nist_ai_600_1",
+    "page": 10,
+    "char_offset": 200,
+    "chunk_id": "de2d702caa14ec78adcd3064fba04a6fecf040e39a83c397cd1d810a248c39ac",
+    "text": "2.2. Confabulation\n“Confabulation” refers to a phenomenon in which GAI systems generate and confidently present\nerroneous or false content in response to prompts. Confabulations also include generated outputs that\ndiverge from the prompts or other input or that contradict previously generated statements in the same\ncontext. These phenomena are colloquially also referred to as “hallucinations” or “fabrications.”",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p010",
+      "raw_chars": 3254,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 6,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 414,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 2,
+    "reason": "Heading và định nghĩa Confabulation cùng các cách gọi tương đương đầy đủ.",
+    "same_text_as_B": true,
+    "author_score": 2,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "C",
+    "document_id": "nist_ai_600_1",
+    "page": 11,
+    "char_offset": 200,
+    "chunk_id": "8349fc3f61c106624c72dc60ffbefdf779abd5dc7638771d714b2e8a49301d0a",
+    "text": "unethical behavior. Text-to-image models also make it easy to create images that could be used to\npromote dangerous or violent messages. Similar concerns are present for other GAI media, including\nvideo and audio. GAI may also produce content that recommends self-harm or criminal/illegal activities.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p011",
+      "raw_chars": 3491,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 7,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 300,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Có các câu về text-to-image và media khác, nhưng mở đầu bằng mảnh câu 'unethical behavior' thiếu ngữ cảnh trước.",
+    "same_text_as_B": true,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "C",
+    "document_id": "nist_ai_600_1",
+    "page": 12,
+    "char_offset": 200,
+    "chunk_id": "65cdecdde24d4364ea5a980c9410f7dacffb7cc9f62053b6576d98d49c890812",
+    "text": "2.5. Environmental Impacts\nTraining, maintaining, and operating (running inference on) GAI systems are resource-intensive activities,\nwith potentially large energy and environmental footprints. Energy and carbon emissions vary based on\nwhat is being done with the GAI model (i.e., pre-training, fine-tuning, inference), the modality of the\ncontent, hardware used, and type of task or application.\nCurrent estimates suggest that training a single transformer LLM can emit as much carbon as 300 round-\ntrip flights between San Francisco and New York. In a study comparing energy consumption and carbon\nemissions for LLM inference, generative tasks (e.g., text summarization) were found to be more energy-\nand carbon-i ntensive th an discriminative or non-generative tasks (e.g., text classification).",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p012",
+      "raw_chars": 3387,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 8,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 106,
+      "char_end": 904,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 2,
+    "reason": "Heading Environmental Impacts và hai đoạn liên quan kết thúc trọn ý; còn lỗi tách chữ từ PDF nhưng vẫn hiểu nội dung.",
+    "same_text_as_B": true,
+    "author_score": 2,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "C",
+    "document_id": "nist_ai_600_1",
+    "page": 13,
+    "char_offset": 200,
+    "chunk_id": "f130b7a44172b86bf540784fdde80ccbd40de7a745b8f0d6165aa6f770088be1",
+    "text": "and reduced content diversity). Overly homogenized outputs can themselves be incorrect, or they may\nlead to unreliable decision-making or amplify harmful biases. These phenomena can flow from\nfoundation models to downstream models and systems, with the foundation models acting as\n“bottlenecks,” or single points of failure.\nOverly homogenized content can contribute to “model collapse.” Model collapse can occur when model\ntraining over-relies on synthetic data, resulting in data points disappearing from the distribution of the\nnew model’s outputs. In addition to threatening the robustness of the model overall, model collapse\ncould lead to homogenized outputs, including by amplifying any homogenization from the model used to\ngenerate the synthetic training data.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p013",
+      "raw_chars": 2932,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 9,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 769,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 1,
+    "reason": "Đoạn model collapse đầy đủ nhưng mở đầu là phần tiếp nối câu chưa có ở chunk này.",
+    "same_text_as_B": true,
+    "author_score": 1,
+    "review_status": "author_reviewed_and_approved"
+  },
+  {
+    "strategy": "C",
+    "document_id": "nist_ai_600_1",
+    "page": 14,
+    "char_offset": 200,
+    "chunk_id": "a6764bcc27b3fc922f86c2f19c26a62a0e13e955a9235c2d3a7b5fd4a6cda89b",
+    "text": "GAI systems can ease the unintentional production or dissemination of false, inaccurate, or misleading\ncontent (misinformation) at scale, particularly if the content stems from confabulations.\nGAI systems can also ease the deliberate production or dissemination of false or misleading information\n(disinformation) at scale, where an actor has the explicit intent to deceive or cause harm to others. Even\nvery subtle changes to text or images can manipulate human and machine perception.",
+    "metadata": {
+      "page_id": "nist_ai_600_1:p014",
+      "raw_chars": 3256,
+      "extraction_status": "ok",
+      "document_part": "main_body",
+      "printed_page": 10,
+      "language": "en",
+      "document_type": "technical_report",
+      "char_start": 0,
+      "char_end": 486,
+      "chunking": "by_paragraph",
+      "parameters": {
+        "max_size": 800,
+        "overlap": 0
+      }
+    },
+    "proposed_score": 2,
+    "reason": "Giữ đầy đủ hai đoạn phân biệt misinformation và disinformation, đủ điều kiện về chủ ý.",
+    "same_text_as_B": true,
+    "author_score": 2,
+    "review_status": "author_reviewed_and_approved"
+  }
+]

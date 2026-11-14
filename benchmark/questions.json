@@ -1,0 +1,490 @@
+[
+  {
+    "id": "D01",
+    "split": "dev",
+    "type": "direct",
+    "question": "AI RMF được phát hành khi nào, có tính bắt buộc không và nhằm giúp tổ chức làm gì?",
+    "expected_answer": "AI RMF phát hành tháng 1/2023, được dùng tự nguyện để đưa các cân nhắc về độ đáng tin cậy vào thiết kế, phát triển, sử dụng và đánh giá sản phẩm, dịch vụ, hệ thống AI.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 5,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "The AI RMF was released in January 2023, and is intended for voluntary use and to improve the ability of organizations to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products, services, and systems.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 5,
+        "evidence_quote": "The AI RMF was released in January 2023, and is intended for voluntary use and to improve the ability of organizations to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products, services, and systems."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D02",
+    "split": "dev",
+    "type": "direct",
+    "question": "Trong AI RMF, rủi ro được xác định bằng hai thành phần nào?",
+    "expected_answer": "Khả năng/xác suất xảy ra sự kiện và mức độ hậu quả của sự kiện đó.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 6,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "In the context of the AI RMF, risk refers to the composite measure of an event’s probability (or likelihood) of occurring and the magnitude or degree of the consequences of the corresponding event.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 6,
+        "evidence_quote": "In the context of the AI RMF, risk refers to the composite measure of an event’s probability (or likelihood) of occurring and the magnitude or degree of the consequences of the corresponding event."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D03",
+    "split": "dev",
+    "type": "exception",
+    "question": "Bản profile này có xem xét rủi ro suy đoán của các hệ thống GAI tiên tiến trong tương lai không?",
+    "expected_answer": "Không. Bản này tập trung vào rủi ro có cơ sở bằng chứng thực nghiệm tại thời điểm viết, chưa xét các rủi ro suy đoán của hệ thống tương lai.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 7,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "This document focuses on risks for which there is an existing empirical evidence base at the time this profile was written; for example, speculative risks that may potentially arise in more advanced, future GAI systems are not considered.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 7,
+        "evidence_quote": "This document focuses on risks for which there is an existing empirical evidence base at the time this profile was written; for example, speculative risks that may potentially arise in more advanced, future GAI systems are not considered."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D04",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Một hệ thống GAI đưa ra nội dung sai với giọng điệu rất tự tin thì thuộc hiện tượng nào được mô tả trong tài liệu?",
+    "expected_answer": "Confabulation: hệ thống sinh và trình bày tự tin nội dung sai hoặc không đúng thực tế khi trả lời prompt.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 10,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "“Confabulation” refers to a phenomenon in which GAI systems generate and confidently present erroneous or false content in response to prompts.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 10,
+        "evidence_quote": "“Confabulation” refers to a phenomenon in which GAI systems generate and confidently present erroneous or false content in response to prompts."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D05",
+    "split": "dev",
+    "type": "exception",
+    "question": "Theo bản tài liệu này, đã có phương pháp được đồng thuận để ước tính tác động môi trường của GAI chưa?",
+    "expected_answer": "Chưa có phương pháp được đồng thuận tại thời điểm tài liệu được viết.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 12,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Currently there is no agreed upon method to estimate environmental impacts from GAI.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 12,
+        "evidence_quote": "Currently there is no agreed upon method to estimate environmental impacts from GAI."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D06",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Việc quá phụ thuộc vào dữ liệu tổng hợp khi huấn luyện có thể gây model collapse như thế nào?",
+    "expected_answer": "Các điểm dữ liệu có thể biến mất khỏi phân phối đầu ra của mô hình mới khi huấn luyện quá phụ thuộc vào dữ liệu tổng hợp.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 13,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Model collapse can occur when model training over-relies on synthetic data, resulting in data points disappearing from the distribution of the new model’s outputs.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 13,
+        "evidence_quote": "Model collapse can occur when model training over-relies on synthetic data, resulting in data points disappearing from the distribution of the new model’s outputs."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D07",
+    "split": "dev",
+    "type": "comparison",
+    "question": "Điểm khác biệt về chủ ý giữa misinformation và disinformation do GAI hỗ trợ là gì?",
+    "expected_answer": "Misinformation có thể được tạo hoặc lan truyền ngoài ý muốn; disinformation là cố ý tạo hoặc lan truyền nội dung sai nhằm lừa dối hoặc gây hại.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 14,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "GAI systems can ease the unintentional production or dissemination of false, inaccurate, or misleading content (misinformation) at scale, particularly if the content stems from confabulations. GAI systems can also ease the deliberate production or dissemination of false or misleading information (disinformation) at scale, where an actor has the explicit intent to deceive or cause harm to others.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 14,
+        "evidence_quote": "GAI systems can ease the unintentional production or dissemination of false, inaccurate, or misleading content (misinformation) at scale, particularly if the content stems from confabulations. GAI systems can also ease the deliberate production or dissemination of false or misleading information (disinformation) at scale, where an actor has the explicit intent to deceive or cause harm to others."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D08",
+    "split": "dev",
+    "type": "comparison",
+    "question": "Tài liệu phân biệt direct prompt injection và indirect prompt injection như thế nào?",
+    "expected_answer": "Direct đưa prompt độc hại trực tiếp vào hệ thống GAI; indirect chèn prompt vào dữ liệu mà ứng dụng tích hợp LLM có khả năng truy xuất, không cần giao diện trực tiếp.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 15,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "In direct prompt injections, attackers might craft malicious prompts and input them directly to a GAI system, with a variety of downstream negative consequences to interconnected systems. Indirect prompt injection attacks occur when adversaries remotely (i.e., without a direct interface) exploit LLM-integrated applications by injecting prompts into data likely to be retrieved.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 15,
+        "evidence_quote": "In direct prompt injections, attackers might craft malicious prompts and input them directly to a GAI system, with a variety of downstream negative consequences to interconnected systems. Indirect prompt injection attacks occur when adversaries remotely (i.e., without a direct interface) exploit LLM-integrated applications by injecting prompts into data likely to be retrieved."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D09",
+    "split": "dev",
+    "type": "exception",
+    "question": "Mọi suggested action có áp dụng cho mọi AI Actor không? Căn cứ nào quyết định việc áp dụng?",
+    "expected_answer": "Không. Tính phù hợp phụ thuộc vào cân nhắc của tổ chức và cách sử dụng GAI riêng của từng bên; hành động cho nhà phát triển có thể không phù hợp với bên triển khai.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 17,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Not every suggested action applies to every AI Actor14 or is relevant to every AI Actor Task. For example, suggested actions relevant to GAI developers may not be relevant to GAI deployers. The applicability of suggested actions to relevant AI actors should be determined based on organizational considerations and their unique uses of GAI systems.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 17,
+        "evidence_quote": "Not every suggested action applies to every AI Actor14 or is relevant to every AI Actor Task. For example, suggested actions relevant to GAI developers may not be relevant to GAI deployers. The applicability of suggested actions to relevant AI actors should be determined based on organizational considerations and their unique uses of GAI systems."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D10",
+    "split": "dev",
+    "type": "direct",
+    "question": "Các mã GV, MP, MS và MG trong bảng hành động lần lượt chỉ những chức năng nào của AI RMF?",
+    "expected_answer": "GV là Govern, MP là Map, MS là Measure, MG là Manage.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 17,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "AI RMF functions are tagged as follows: GV = Govern; MP = Map; MS = Measure; MG = Manage.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 17,
+        "evidence_quote": "AI RMF functions are tagged as follows: GV = Govern; MP = Map; MS = Measure; MG = Manage."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D11",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Trong phần nội dung chính, hành động GV-1.2-001 yêu cầu chính sách minh bạch ghi lại những gì và cần cân bằng điều gì?",
+    "expected_answer": "Ghi lại nguồn gốc và lịch sử của dữ liệu huấn luyện và dữ liệu sinh ra để tăng minh bạch nội dung số, đồng thời cân bằng tính độc quyền của cách huấn luyện.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 18,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Establish transparency policies and processes for documenting the origin and history of training data and generated data for GAI applications to advance digital content transparency, while balancing the proprietary nature of training approaches.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 18,
+        "evidence_quote": "Establish transparency policies and processes for documenting the origin and history of training data and generated data for GAI applications to advance digital content transparency, while balancing the proprietary nature of training approaches."
+      }
+    ],
+    "filter": {
+      "document_part": "main_body"
+    },
+    "filter_context": "Câu hỏi giới hạn trước phạm vi ở phần nội dung chính, không gồm phụ lục.",
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D12",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Trong phần nội dung chính, GV-1.7-001 yêu cầu các protocol bảo đảm khả năng nào của hệ thống GAI?",
+    "expected_answer": "Bảo đảm có thể vô hiệu hóa hệ thống GAI khi cần thiết.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 21,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Protocols are put in place to ensure GAI systems are able to be deactivated when necessary.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 21,
+        "evidence_quote": "Protocols are put in place to ensure GAI systems are able to be deactivated when necessary."
+      }
+    ],
+    "filter": {
+      "document_part": "main_body"
+    },
+    "filter_context": "Câu hỏi giới hạn trước phạm vi ở phần nội dung chính, không gồm phụ lục.",
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D13",
+    "split": "dev",
+    "type": "direct",
+    "question": "MAP 2.2 yêu cầu ghi nhận quan hệ phụ thuộc nào của hệ thống với các nguồn dữ liệu và hệ thống khác?",
+    "expected_answer": "Ghi cách hệ thống phụ thuộc vào dữ liệu upstream, kể cả provenance, và việc hệ thống có là upstream dependency của hệ thống khác hay không.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 28,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Identify and document how the system relies on upstream data sources, including for content provenance, and if it serves as an upstream dependency for other systems.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 28,
+        "evidence_quote": "Identify and document how the system relies on upstream data sources, including for content provenance, and if it serves as an upstream dependency for other systems."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D14",
+    "split": "dev",
+    "type": "condition",
+    "question": "MEASURE 2.2 nêu lựa chọn nào cho người tham gia nghiên cứu về việc tham gia và sử dụng dữ liệu của họ?",
+    "expected_answer": "Cho phép rút khỏi việc tham gia hoặc thu hồi đồng ý đối với việc sử dụng dữ liệu hiện tại hay tương lai trong ứng dụng GAI.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 34,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Provide human subjects with options to withdraw participation or revoke their consent for present or future use of their data in GAI applications.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 34,
+        "evidence_quote": "Provide human subjects with options to withdraw participation or revoke their consent for present or future use of their data in GAI applications."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "D15",
+    "split": "dev",
+    "type": "direct",
+    "question": "MANAGE 1.3 liệt kê những phương án phản ứng rủi ro nào?",
+    "expected_answer": "Giảm thiểu, chuyển giao, tránh hoặc chấp nhận rủi ro.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 44,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Risk response options can include mitigating, transferring, avoiding, or accepting.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 44,
+        "evidence_quote": "Risk response options can include mitigating, transferring, avoiding, or accepting."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "T01",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Trong Appendix A, khoảng trống đo lường có thể phát sinh từ sự khác biệt giữa hai bối cảnh nào?",
+    "expected_answer": "Giữa bối cảnh phòng thí nghiệm và bối cảnh thực tế.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 53,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Measurement gaps can arise from mismatches between laboratory and real-world settings.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 53,
+        "evidence_quote": "Measurement gaps can arise from mismatches between laboratory and real-world settings."
+      }
+    ],
+    "filter": {
+      "document_part": "appendix_a"
+    },
+    "filter_context": "Người dùng giới hạn câu hỏi vào Appendix A trước khi truy xuất.",
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "T02",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Các phương thức participatory engagement nào được nêu để lấy phản hồi về sản phẩm hoặc tính năng?",
+    "expected_answer": "Focus group với chuyên gia được chọn; nghiên cứu người dùng nhỏ với nhóm đại diện; khảo sát ẩn danh để lấy phản hồi về tính năng cụ thể.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 54,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Focus groups with select experts can provide feedback on a range of issues. Small user studies can provide feedback from representative groups or populations. Anonymous surveys can be used to poll or gauge reactions to specific features.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 54,
+        "evidence_quote": "Focus groups with select experts can provide feedback on a range of issues. Small user studies can provide feedback from representative groups or populations. Anonymous surveys can be used to poll or gauge reactions to specific features."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "T03",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Trong Appendix A, provenance metadata có thể chứa những thông tin cụ thể nào?",
+    "expected_answer": "Nhà phát triển mô hình hoặc người tạo nội dung GAI, ngày/giờ tạo, địa điểm, các thay đổi và các nguồn.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 55,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Provenance metadata can include information about GAI model developers or creators of GAI content, date/time of creation, location, modifications, and sources.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 55,
+        "evidence_quote": "Provenance metadata can include information about GAI model developers or creators of GAI content, date/time of creation, location, modifications, and sources."
+      }
+    ],
+    "filter": {
+      "document_part": "appendix_a"
+    },
+    "filter_context": "Người dùng yêu cầu tra phần Appendix A trước khi truy xuất.",
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "T04",
+    "split": "test",
+    "type": "condition",
+    "question": "Theo bản tài liệu tháng 7/2024, tình trạng kênh báo cáo AI incident chính thức và các cơ sở dữ liệu công khai được mô tả ra sao?",
+    "expected_answer": "Tài liệu nói chưa có kênh chính thức để báo cáo và ghi nhận AI incidents, nhưng đã có một số cơ sở dữ liệu công khai ghi nhận các sự kiện. Đây là mô tả theo thời điểm tài liệu, không phải xác nhận tình trạng hiện nay.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 56,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Formal channels do not currently exist to report and document AI incidents. However, a number of publicly available databases have been created to document their occurrence.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 56,
+        "evidence_quote": "Formal channels do not currently exist to report and document AI incidents. However, a number of publicly available databases have been created to document their occurrence."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  },
+  {
+    "id": "T05",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Những thực hành ghi nhận và chia sẻ nào hỗ trợ AI Actors phản ứng, quản lý AI incidents?",
+    "expected_answer": "Logging, ghi nhận và phân tích incidents; chia sẻ thông tin thường xuyên, hồ sơ quản lý thay đổi, lịch sử phiên bản và metadata.",
+    "gold_source_id": "nist_ai_600_1",
+    "gold_page": 57,
+    "gold_page_convention": "1-based physical PDF page",
+    "evidence_quote": "Documentation practices including logging, recording, and analyzing GAI incidents can facilitate smoother sharing of information with relevant AI Actors. Regular information sharing, change management records, version history and metadata can also empower AI Actors responding to and managing AI incidents.",
+    "gold_evidence": [
+      {
+        "source_id": "nist_ai_600_1",
+        "page": 57,
+        "evidence_quote": "Documentation practices including logging, recording, and analyzing GAI incidents can facilitate smoother sharing of information with relevant AI Actors. Regular information sharing, change management records, version history and metadata can also empower AI Actors responding to and managing AI incidents."
+      }
+    ],
+    "filter": {},
+    "filter_context": null,
+    "evidence_review": {
+      "quote_source_verified": true,
+      "method": "Assistant checked source context and automatic whitespace-normalized quote validation; not a user grading label."
+    }
+  }
+]

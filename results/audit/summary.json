@@ -1,0 +1,52 @@
+{
+  "status": "author_reviewed",
+  "assessor": "Codex assistant; source-based review, not a claim of human grading",
+  "human_labels_entered": true,
+  "author_review": "artifacts/author_review.json",
+  "strategies": {
+    "A": {
+      "coherence_n": 10,
+      "coherence_proposed_mean": 1.0,
+      "grounding_n": 5,
+      "grounding_proposed_counts": {
+        "0": 2,
+        "2": 3
+      },
+      "grounding_proposed_mean": 1.2,
+      "metadata_correct_n": 15,
+      "metadata_total": 15,
+      "filter_compliance_n": 0,
+      "filter_questions": 2,
+      "author_confirmed": true
+    },
+    "B": {
+      "coherence_n": 10,
+      "coherence_proposed_mean": 1.5,
+      "grounding_n": 5,
+      "grounding_proposed_counts": {
+        "0": 1,
+        "2": 4
+      },
+      "grounding_proposed_mean": 1.6,
+      "metadata_correct_n": 15,
+      "metadata_total": 15,
+      "filter_compliance_n": 0,
+      "filter_questions": 2,
+      "author_confirmed": true
+    },
+    "C": {
+      "coherence_n": 10,
+      "coherence_proposed_mean": 1.5,
+      "grounding_n": 5,
+      "grounding_proposed_counts": {
+        "2": 5
+      },
+      "grounding_proposed_mean": 2.0,
+      "metadata_correct_n": 15,
+      "metadata_total": 15,
+      "filter_compliance_n": 2,
+      "filter_questions": 2,
+      "author_confirmed": true
+    }
+  }
+}

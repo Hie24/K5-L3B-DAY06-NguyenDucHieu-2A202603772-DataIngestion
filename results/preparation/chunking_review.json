@@ -1,0 +1,40 @@
+{
+  "stage": 3,
+  "reviewer": "assistant",
+  "initial_B_statistics": {
+    "chunk_count": 491,
+    "characters": 136260,
+    "min_chars": 10,
+    "max_chars": 799,
+    "mean_chars": 277.52,
+    "median_chars": 233,
+    "chunking_seconds": 0.043222,
+    "token_count": null,
+    "embedding_cost": null,
+    "ingest_seconds": null,
+    "note": "Only chunk creation measured. Model tokens, embedding and database ingest not run."
+  },
+  "initial_chunker_sha256": "631eda541a29e2f422af96170ebf01fbca2ae58b60f6509169ca45ab5b308ecc",
+  "observation": "Một số bullet và heading bị tách thành chunk 10-20 ký tự. Đọc mẫu trang 51-52 trước retrieval.",
+  "change": "Cho phép gộp bullet liên tiếp và ghép chuỗi heading ngắn với đoạn sau trong cùng giới hạn 800 ký tự.",
+  "retrieval_or_test_scores_used": false,
+  "benchmark_changed": false,
+  "remaining_limitations": [
+    "Bảng nhiều cột vẫn được trích thành text tuyến tính.",
+    "Đoạn dài hơn 800 ký tự có thể phải chia ở dấu câu hoặc từ; chưa chấm coherence thủ công."
+  ],
+  "final_B_statistics": {
+    "chunk_count": 381,
+    "characters": 136394,
+    "min_chars": 29,
+    "max_chars": 799,
+    "mean_chars": 357.99,
+    "median_chars": 309,
+    "chunking_seconds": 0.028221,
+    "token_count": null,
+    "embedding_cost": null,
+    "ingest_seconds": null,
+    "note": "Only chunk creation measured. Model tokens, embedding and database ingest not run."
+  },
+  "final_chunker_sha256": "fc71e8c2c96e55e015a71ccf85d438464eb60cac1b50a0c7f5f9f08bbf14fa96"
+}

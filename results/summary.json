@@ -1,0 +1,179 @@
+{
+  "selected_on_dev": "A",
+  "selection_before_test": true,
+  "retrieval_metrics": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "total": 15,
+      "hit1_n": 9,
+      "hit3_n": 12,
+      "hit1": 0.6,
+      "hit3": 0.8
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "total": 15,
+      "hit1_n": 9,
+      "hit3_n": 11,
+      "hit1": 0.6,
+      "hit3": 0.7333333333333333
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "total": 15,
+      "hit1_n": 9,
+      "hit3_n": 11,
+      "hit1": 0.6,
+      "hit3": 0.7333333333333333
+    },
+    {
+      "strategy": "A",
+      "split": "test",
+      "total": 5,
+      "hit1_n": 2,
+      "hit3_n": 3,
+      "hit1": 0.4,
+      "hit3": 0.6
+    },
+    {
+      "strategy": "B",
+      "split": "test",
+      "total": 5,
+      "hit1_n": 4,
+      "hit3_n": 4,
+      "hit1": 0.8,
+      "hit3": 0.8
+    },
+    {
+      "strategy": "C",
+      "split": "test",
+      "total": 5,
+      "hit1_n": 4,
+      "hit3_n": 5,
+      "hit1": 0.8,
+      "hit3": 1.0
+    }
+  ],
+  "audit": {
+    "status": "author_reviewed",
+    "assessor": "Codex assistant; source-based review, not a claim of human grading",
+    "human_labels_entered": true,
+    "author_review": "artifacts/author_review.json",
+    "strategies": {
+      "A": {
+        "coherence_n": 10,
+        "coherence_proposed_mean": 1.0,
+        "grounding_n": 5,
+        "grounding_proposed_counts": {
+          "0": 2,
+          "2": 3
+        },
+        "grounding_proposed_mean": 1.2,
+        "metadata_correct_n": 15,
+        "metadata_total": 15,
+        "filter_compliance_n": 0,
+        "filter_questions": 2,
+        "author_confirmed": true
+      },
+      "B": {
+        "coherence_n": 10,
+        "coherence_proposed_mean": 1.5,
+        "grounding_n": 5,
+        "grounding_proposed_counts": {
+          "0": 1,
+          "2": 4
+        },
+        "grounding_proposed_mean": 1.6,
+        "metadata_correct_n": 15,
+        "metadata_total": 15,
+        "filter_compliance_n": 0,
+        "filter_questions": 2,
+        "author_confirmed": true
+      },
+      "C": {
+        "coherence_n": 10,
+        "coherence_proposed_mean": 1.5,
+        "grounding_n": 5,
+        "grounding_proposed_counts": {
+          "2": 5
+        },
+        "grounding_proposed_mean": 2.0,
+        "metadata_correct_n": 15,
+        "metadata_total": 15,
+        "filter_compliance_n": 2,
+        "filter_questions": 2,
+        "author_confirmed": true
+      }
+    }
+  },
+  "resources": {
+    "A": {
+      "chunks": 213,
+      "characters": 152704,
+      "embedding_seconds": 6.49491019999914,
+      "embedding_tokens": {
+        "texts": 213,
+        "tokens": 36131,
+        "max_tokens": 216,
+        "truncated": 0
+      },
+      "first_upsert_seconds": 0.1143143000008422,
+      "repeat_upsert_seconds": 0.10159660000044823,
+      "first_count": 213,
+      "second_count": 213,
+      "api_cost_usd": 0,
+      "mean_search_ms": 3.484045000095648,
+      "median_search_ms": 3.1690500004515343
+    },
+    "B": {
+      "chunks": 381,
+      "characters": 136394,
+      "embedding_seconds": 8.164245500000106,
+      "embedding_tokens": {
+        "texts": 381,
+        "tokens": 32940,
+        "max_tokens": 197,
+        "truncated": 0
+      },
+      "first_upsert_seconds": 0.17331220000050962,
+      "repeat_upsert_seconds": 0.1593086000002586,
+      "first_count": 381,
+      "second_count": 381,
+      "api_cost_usd": 0,
+      "mean_search_ms": 3.390870000112045,
+      "median_search_ms": 3.347800000483403
+    },
+    "C": {
+      "chunks": 381,
+      "characters": 136394,
+      "embedding_seconds": 0,
+      "embedding_tokens": {
+        "texts": 381,
+        "tokens": 32940,
+        "max_tokens": 197,
+        "truncated": 0
+      },
+      "first_upsert_seconds": null,
+      "repeat_upsert_seconds": null,
+      "first_count": 381,
+      "second_count": 381,
+      "api_cost_usd": 0,
+      "embedding_reused_from": "B",
+      "both_upserts_seconds": 0.31336840000039956,
+      "mean_search_ms": 2.5735999999142223,
+      "median_search_ms": 2.358050000111689
+    }
+  },
+  "total_query_embedding_tokens": 564,
+  "api_cost_usd": 0,
+  "local_hardware_electricity_cost": "not measured",
+  "tests": {
+    "passed": 19,
+    "failed": 0,
+    "real_pgvector": true
+  },
+  "status": "stages_4_5_6_completed"
+}

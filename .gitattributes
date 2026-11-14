@@ -1,0 +1,8 @@
+# Preserve exact bytes of frozen inputs, traces and evaluated source.
+# SHA-256 provenance must survive checkout with core.autocrlf enabled.
+artifacts/*.json -text
+benchmark/*.json -text
+data/*.json -text
+results/** -text
+starter/src/*.py -text
+starter/data/*.pdf binary

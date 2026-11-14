@@ -1,0 +1,66 @@
+[
+  {
+    "strategy": "A",
+    "question_id": "T01",
+    "requested_filter": {
+      "document_part": "appendix_a"
+    },
+    "applied_filter": {},
+    "returned": 3,
+    "all_top3_comply": false
+  },
+  {
+    "strategy": "A",
+    "question_id": "T03",
+    "requested_filter": {
+      "document_part": "appendix_a"
+    },
+    "applied_filter": {},
+    "returned": 3,
+    "all_top3_comply": false
+  },
+  {
+    "strategy": "B",
+    "question_id": "T01",
+    "requested_filter": {
+      "document_part": "appendix_a"
+    },
+    "applied_filter": {},
+    "returned": 3,
+    "all_top3_comply": false
+  },
+  {
+    "strategy": "B",
+    "question_id": "T03",
+    "requested_filter": {
+      "document_part": "appendix_a"
+    },
+    "applied_filter": {},
+    "returned": 3,
+    "all_top3_comply": false
+  },
+  {
+    "strategy": "C",
+    "question_id": "T01",
+    "requested_filter": {
+      "document_part": "appendix_a"
+    },
+    "applied_filter": {
+      "document_part": "appendix_a"
+    },
+    "returned": 3,
+    "all_top3_comply": true
+  },
+  {
+    "strategy": "C",
+    "question_id": "T03",
+    "requested_filter": {
+      "document_part": "appendix_a"
+    },
+    "applied_filter": {
+      "document_part": "appendix_a"
+    },
+    "returned": 3,
+    "all_top3_comply": true
+  }
+]

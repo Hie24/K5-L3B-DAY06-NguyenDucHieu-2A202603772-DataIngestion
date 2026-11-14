@@ -1,0 +1,34 @@
+{
+  "A": {
+    "chunk_count": 213,
+    "characters": 152704,
+    "min_chars": 107,
+    "max_chars": 800,
+    "mean_chars": 716.92,
+    "median_chars": 800,
+    "chunking_seconds": 0.019741,
+    "token_count": null,
+    "embedding_cost": null,
+    "ingest_seconds": null,
+    "note": "Only chunk creation measured. Model tokens, embedding and database ingest not run."
+  },
+  "B": {
+    "chunk_count": 381,
+    "characters": 136394,
+    "min_chars": 29,
+    "max_chars": 799,
+    "mean_chars": 357.99,
+    "median_chars": 309,
+    "chunking_seconds": 0.028221,
+    "token_count": null,
+    "embedding_cost": null,
+    "ingest_seconds": null,
+    "note": "Only chunk creation measured. Model tokens, embedding and database ingest not run."
+  },
+  "C": {
+    "reuses": "chunks_B.jsonl",
+    "chunk_count": 381,
+    "filter_policy": "Same B chunks; apply document_part only when query context supplies it.",
+    "retrieval_run": false
+  }
+}

@@ -1,0 +1,642 @@
+[
+  {
+    "page": 1,
+    "page_id": "nist_ai_600_1:p001",
+    "raw_chars": 270,
+    "normalized_chars": 233,
+    "printed_page": null,
+    "included": false,
+    "extraction_status": "ok",
+    "reason": "Bìa và trang tên xuất bản"
+  },
+  {
+    "page": 2,
+    "page_id": "nist_ai_600_1:p002",
+    "raw_chars": 481,
+    "normalized_chars": 443,
+    "printed_page": null,
+    "included": false,
+    "extraction_status": "ok",
+    "reason": "Bìa và trang tên xuất bản"
+  },
+  {
+    "page": 3,
+    "page_id": "nist_ai_600_1:p003",
+    "raw_chars": 2313,
+    "normalized_chars": 2279,
+    "printed_page": null,
+    "included": false,
+    "extraction_status": "ok",
+    "reason": "Giới thiệu NIST, lời cảm ơn và thông tin xuất bản"
+  },
+  {
+    "page": 4,
+    "page_id": "nist_ai_600_1:p004",
+    "raw_chars": 751,
+    "normalized_chars": 728,
+    "printed_page": null,
+    "included": false,
+    "extraction_status": "ok",
+    "reason": "Mục lục"
+  },
+  {
+    "page": 5,
+    "page_id": "nist_ai_600_1:p005",
+    "raw_chars": 2750,
+    "normalized_chars": 2725,
+    "printed_page": 1,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 6,
+    "page_id": "nist_ai_600_1:p006",
+    "raw_chars": 3356,
+    "normalized_chars": 3311,
+    "printed_page": 2,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 7,
+    "page_id": "nist_ai_600_1:p007",
+    "raw_chars": 3658,
+    "normalized_chars": 3625,
+    "printed_page": 3,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 8,
+    "page_id": "nist_ai_600_1:p008",
+    "raw_chars": 3548,
+    "normalized_chars": 3508,
+    "printed_page": 4,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 9,
+    "page_id": "nist_ai_600_1:p009",
+    "raw_chars": 3293,
+    "normalized_chars": 3252,
+    "printed_page": 5,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 10,
+    "page_id": "nist_ai_600_1:p010",
+    "raw_chars": 3254,
+    "normalized_chars": 3211,
+    "printed_page": 6,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 11,
+    "page_id": "nist_ai_600_1:p011",
+    "raw_chars": 3491,
+    "normalized_chars": 3449,
+    "printed_page": 7,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 12,
+    "page_id": "nist_ai_600_1:p012",
+    "raw_chars": 3387,
+    "normalized_chars": 3351,
+    "printed_page": 8,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 13,
+    "page_id": "nist_ai_600_1:p013",
+    "raw_chars": 2932,
+    "normalized_chars": 2897,
+    "printed_page": 9,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 14,
+    "page_id": "nist_ai_600_1:p014",
+    "raw_chars": 3256,
+    "normalized_chars": 3218,
+    "printed_page": 10,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 15,
+    "page_id": "nist_ai_600_1:p015",
+    "raw_chars": 3325,
+    "normalized_chars": 3281,
+    "printed_page": 11,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 16,
+    "page_id": "nist_ai_600_1:p016",
+    "raw_chars": 2952,
+    "normalized_chars": 2907,
+    "printed_page": 12,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 17,
+    "page_id": "nist_ai_600_1:p017",
+    "raw_chars": 1902,
+    "normalized_chars": 1861,
+    "printed_page": 13,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 18,
+    "page_id": "nist_ai_600_1:p018",
+    "raw_chars": 2610,
+    "normalized_chars": 2556,
+    "printed_page": 14,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 19,
+    "page_id": "nist_ai_600_1:p019",
+    "raw_chars": 2216,
+    "normalized_chars": 2168,
+    "printed_page": 15,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 20,
+    "page_id": "nist_ai_600_1:p020",
+    "raw_chars": 2333,
+    "normalized_chars": 2294,
+    "printed_page": 16,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 21,
+    "page_id": "nist_ai_600_1:p021",
+    "raw_chars": 2561,
+    "normalized_chars": 2521,
+    "printed_page": 17,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 22,
+    "page_id": "nist_ai_600_1:p022",
+    "raw_chars": 2629,
+    "normalized_chars": 2585,
+    "printed_page": 18,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 23,
+    "page_id": "nist_ai_600_1:p023",
+    "raw_chars": 1854,
+    "normalized_chars": 1819,
+    "printed_page": 19,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 24,
+    "page_id": "nist_ai_600_1:p024",
+    "raw_chars": 2261,
+    "normalized_chars": 2233,
+    "printed_page": 20,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 25,
+    "page_id": "nist_ai_600_1:p025",
+    "raw_chars": 2712,
+    "normalized_chars": 2666,
+    "printed_page": 21,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 26,
+    "page_id": "nist_ai_600_1:p026",
+    "raw_chars": 2990,
+    "normalized_chars": 2946,
+    "printed_page": 22,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 27,
+    "page_id": "nist_ai_600_1:p027",
+    "raw_chars": 2549,
+    "normalized_chars": 2504,
+    "printed_page": 23,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 28,
+    "page_id": "nist_ai_600_1:p028",
+    "raw_chars": 2063,
+    "normalized_chars": 2027,
+    "printed_page": 24,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 29,
+    "page_id": "nist_ai_600_1:p029",
+    "raw_chars": 2301,
+    "normalized_chars": 2276,
+    "printed_page": 25,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 30,
+    "page_id": "nist_ai_600_1:p030",
+    "raw_chars": 2534,
+    "normalized_chars": 2494,
+    "printed_page": 26,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 31,
+    "page_id": "nist_ai_600_1:p031",
+    "raw_chars": 2459,
+    "normalized_chars": 2417,
+    "printed_page": 27,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 32,
+    "page_id": "nist_ai_600_1:p032",
+    "raw_chars": 2439,
+    "normalized_chars": 2396,
+    "printed_page": 28,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 33,
+    "page_id": "nist_ai_600_1:p033",
+    "raw_chars": 2777,
+    "normalized_chars": 2728,
+    "printed_page": 29,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 34,
+    "page_id": "nist_ai_600_1:p034",
+    "raw_chars": 2125,
+    "normalized_chars": 2098,
+    "printed_page": 30,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 35,
+    "page_id": "nist_ai_600_1:p035",
+    "raw_chars": 1851,
+    "normalized_chars": 1818,
+    "printed_page": 31,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 36,
+    "page_id": "nist_ai_600_1:p036",
+    "raw_chars": 2445,
+    "normalized_chars": 2400,
+    "printed_page": 32,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 37,
+    "page_id": "nist_ai_600_1:p037",
+    "raw_chars": 2871,
+    "normalized_chars": 2819,
+    "printed_page": 33,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 38,
+    "page_id": "nist_ai_600_1:p038",
+    "raw_chars": 1383,
+    "normalized_chars": 1359,
+    "printed_page": 34,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 39,
+    "page_id": "nist_ai_600_1:p039",
+    "raw_chars": 2242,
+    "normalized_chars": 2200,
+    "printed_page": 35,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 40,
+    "page_id": "nist_ai_600_1:p040",
+    "raw_chars": 3042,
+    "normalized_chars": 2993,
+    "printed_page": 36,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 41,
+    "page_id": "nist_ai_600_1:p041",
+    "raw_chars": 1381,
+    "normalized_chars": 1358,
+    "printed_page": 37,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 42,
+    "page_id": "nist_ai_600_1:p042",
+    "raw_chars": 2159,
+    "normalized_chars": 2124,
+    "printed_page": 38,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 43,
+    "page_id": "nist_ai_600_1:p043",
+    "raw_chars": 2747,
+    "normalized_chars": 2693,
+    "printed_page": 39,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 44,
+    "page_id": "nist_ai_600_1:p044",
+    "raw_chars": 2479,
+    "normalized_chars": 2435,
+    "printed_page": 40,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 45,
+    "page_id": "nist_ai_600_1:p045",
+    "raw_chars": 2564,
+    "normalized_chars": 2523,
+    "printed_page": 41,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 46,
+    "page_id": "nist_ai_600_1:p046",
+    "raw_chars": 2698,
+    "normalized_chars": 2650,
+    "printed_page": 42,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 47,
+    "page_id": "nist_ai_600_1:p047",
+    "raw_chars": 2585,
+    "normalized_chars": 2544,
+    "printed_page": 43,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 48,
+    "page_id": "nist_ai_600_1:p048",
+    "raw_chars": 2584,
+    "normalized_chars": 2534,
+    "printed_page": 44,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 49,
+    "page_id": "nist_ai_600_1:p049",
+    "raw_chars": 2296,
+    "normalized_chars": 2262,
+    "printed_page": 45,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 50,
+    "page_id": "nist_ai_600_1:p050",
+    "raw_chars": 385,
+    "normalized_chars": 368,
+    "printed_page": 46,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 51,
+    "page_id": "nist_ai_600_1:p051",
+    "raw_chars": 2988,
+    "normalized_chars": 2947,
+    "printed_page": 47,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 52,
+    "page_id": "nist_ai_600_1:p052",
+    "raw_chars": 2878,
+    "normalized_chars": 2827,
+    "printed_page": 48,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 53,
+    "page_id": "nist_ai_600_1:p053",
+    "raw_chars": 3138,
+    "normalized_chars": 3102,
+    "printed_page": 49,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 54,
+    "page_id": "nist_ai_600_1:p054",
+    "raw_chars": 3462,
+    "normalized_chars": 3423,
+    "printed_page": 50,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 55,
+    "page_id": "nist_ai_600_1:p055",
+    "raw_chars": 3420,
+    "normalized_chars": 3380,
+    "printed_page": 51,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 56,
+    "page_id": "nist_ai_600_1:p056",
+    "raw_chars": 3281,
+    "normalized_chars": 3241,
+    "printed_page": 52,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 57,
+    "page_id": "nist_ai_600_1:p057",
+    "raw_chars": 1444,
+    "normalized_chars": 1420,
+    "printed_page": 53,
+    "included": true,
+    "extraction_status": "ok",
+    "reason": "Nội dung chính/phụ lục có nội dung"
+  },
+  {
+    "page": 58,
+    "page_id": "nist_ai_600_1:p058",
+    "raw_chars": 2696,
+    "normalized_chars": 2664,
+    "printed_page": 54,
+    "included": false,
+    "extraction_status": "ok",
+    "reason": "Appendix B - References"
+  },
+  {
+    "page": 59,
+    "page_id": "nist_ai_600_1:p059",
+    "raw_chars": 2961,
+    "normalized_chars": 2925,
+    "printed_page": 55,
+    "included": false,
+    "extraction_status": "ok",
+    "reason": "Appendix B - References"
+  },
+  {
+    "page": 60,
+    "page_id": "nist_ai_600_1:p060",
+    "raw_chars": 2883,
+    "normalized_chars": 2846,
+    "printed_page": 56,
+    "included": false,
+    "extraction_status": "ok",
+    "reason": "Appendix B - References"
+  },
+  {
+    "page": 61,
+    "page_id": "nist_ai_600_1:p061",
+    "raw_chars": 2895,
+    "normalized_chars": 2862,
+    "printed_page": 57,
+    "included": false,
+    "extraction_status": "ok",
+    "reason": "Appendix B - References"
+  },
+  {
+    "page": 62,
+    "page_id": "nist_ai_600_1:p062",
+    "raw_chars": 2774,
+    "normalized_chars": 2743,
+    "printed_page": 58,
+    "included": false,
+    "extraction_status": "ok",
+    "reason": "Appendix B - References"
+  },
+  {
+    "page": 63,
+    "page_id": "nist_ai_600_1:p063",
+    "raw_chars": 2744,
+    "normalized_chars": 2706,
+    "printed_page": 59,
+    "included": false,
+    "extraction_status": "ok",
+    "reason": "Appendix B - References"
+  },
+  {
+    "page": 64,
+    "page_id": "nist_ai_600_1:p064",
+    "raw_chars": 886,
+    "normalized_chars": 873,
+    "printed_page": 60,
+    "included": false,
+    "extraction_status": "ok",
+    "reason": "Appendix B - References"
+  }
+]

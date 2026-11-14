@@ -1,0 +1,56 @@
+{
+  "selection_rule": "First 10 included physical pages in ascending order, character offset 200 in normalized page text.",
+  "human_scores_entered": false,
+  "positions": [
+    {
+      "document_id": "nist_ai_600_1",
+      "page": 5,
+      "char_offset": 200
+    },
+    {
+      "document_id": "nist_ai_600_1",
+      "page": 6,
+      "char_offset": 200
+    },
+    {
+      "document_id": "nist_ai_600_1",
+      "page": 7,
+      "char_offset": 200
+    },
+    {
+      "document_id": "nist_ai_600_1",
+      "page": 8,
+      "char_offset": 200
+    },
+    {
+      "document_id": "nist_ai_600_1",
+      "page": 9,
+      "char_offset": 200
+    },
+    {
+      "document_id": "nist_ai_600_1",
+      "page": 10,
+      "char_offset": 200
+    },
+    {
+      "document_id": "nist_ai_600_1",
+      "page": 11,
+      "char_offset": 200
+    },
+    {
+      "document_id": "nist_ai_600_1",
+      "page": 12,
+      "char_offset": 200
+    },
+    {
+      "document_id": "nist_ai_600_1",
+      "page": 13,
+      "char_offset": 200
+    },
+    {
+      "document_id": "nist_ai_600_1",
+      "page": 14,
+      "char_offset": 200
+    }
+  ]
+}

@@ -8,3 +8,15 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+
+/starter/.cache/
+/results/cache/
+
+# Local draft/history files; canonical results remain tracked.
+/results/audit/REVIEW_proposed.md
+/results/preparation/checkpoints.json
+/results/preparation/environment.json
+/results/checkpoints_4_6.json
+/starter/requirements-embedding.txt
+/results/manual-*/
+/results/reproduction*/

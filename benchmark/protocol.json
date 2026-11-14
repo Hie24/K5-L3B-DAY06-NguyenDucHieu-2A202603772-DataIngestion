@@ -1,0 +1,78 @@
+{
+  "stage": "preparation",
+  "query_language": "vi",
+  "evidence_language": "en",
+  "split": {
+    "dev_ids": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05",
+      "D06",
+      "D07",
+      "D08",
+      "D09",
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15"
+    ],
+    "test_ids": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05"
+    ],
+    "basis": "15 dev questions from the main body; 5 test questions from Appendix A; fixed before any embedding or retrieval run.",
+    "leakage_risk": "One document; Appendix A repeats some main-body concepts. This is a section-level split, not independent-document or fully independent-topic testing."
+  },
+  "filter": {
+    "field": "document_part",
+    "type": "string",
+    "allowed_values": [
+      "main_body",
+      "appendix_a"
+    ],
+    "origin": "PDF section boundaries verified against contents and physical pages 51 and 58.",
+    "input_policy": "Only question or user context supplies filters before search. Never derive them from gold source/page/answer.",
+    "no_filter_policy": "Strategy C runs unfiltered when the question has no filter."
+  },
+  "selection_rule": [
+    "Maximize dev Evidence Hit@3",
+    "Then maximize dev Hit@1",
+    "Then minimize stored chunk count",
+    "Then choose strategy ID lexicographically to break a remaining tie"
+  ],
+  "test_policy": "Freeze strategies and choose on dev before reading test retrieval results. Evaluate the same five test questions for all fixed strategies; no tuning using test scores.",
+  "hit_definition": "A single chunk must have a valid gold source/page and enough evidence. Exact whitespace-normalized evidence matching is a proxy; any manually confirmed equivalent evidence must be recorded. Combining partial evidence from multiple chunks cannot replace the primary hit definition.",
+  "audit_plan": {
+    "coherence": "Same first 10 included physical pages and normalized char offset 200, selected before chunk outputs. Labels 0/1/2 entered only after reviewing actual chunks.",
+    "metadata": "All top-3 results for five test questions per strategy; compare fields to source.",
+    "grounding": "Five test queries per strategy, explicit 0/1/2 labels and reasons; not LLM answer accuracy."
+  },
+  "strategy_policy": {
+    "A": {
+      "method": "fixed_size",
+      "chunk_size": 800,
+      "overlap": 100
+    },
+    "B": {
+      "method": "by_paragraph",
+      "chunk_size": 800,
+      "overlap": 0
+    },
+    "C": {
+      "chunks": "exactly_B",
+      "filter": "input-supplied document_part"
+    },
+    "limitation": "A-B compares chunking policies including overlap, not boundary placement alone. B-C isolates filtering."
+  },
+  "embedding_policy": "Local real embedding model, same model/version/dimensions/query-document preprocessing for A/B/C. Select and pin in stage 4 before model use; none selected/downloaded/loaded yet.",
+  "vector_store": "Existing PostgreSQL + pgvector, cosine metric; not ingesting vectors in stages 1-3.",
+  "evidence_review": "Assistant drafted questions and checked source context, with literal evidence validation. User review and audit grades have not been claimed.",
+  "retrieval_run": false
+}

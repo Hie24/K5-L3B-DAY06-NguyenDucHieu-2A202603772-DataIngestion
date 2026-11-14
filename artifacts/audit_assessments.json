@@ -1,0 +1,172 @@
+{
+  "status": "proposed_pending_author_review",
+  "assessor": "Codex assistant; source-based review, not a claim of human grading",
+  "method": "Assistant read full selected chunks and gold/source context. Scores are explicit proposals, not generated from Hit@3. C coherence reuses B because text is identical.",
+  "coherence": {
+    "A": {
+      "5": [
+        1,
+        "Định nghĩa và mục đích ban đầu đọc được, nhưng cửa sổ kết thúc giữa từ 'assist' ở đoạn tiếp theo."
+      ],
+      "6": [
+        1,
+        "Có ngữ cảnh GAI PWG và bốn chủ đề; câu nói về các bản cập nhật tương lai bị cắt cuối chunk."
+      ],
+      "7": [
+        1,
+        "Bắt đầu bằng phần câu từ trang trước và kết thúc giữa danh sách đặc điểm; ý Time scale vẫn đọc được."
+      ],
+      "8": [
+        1,
+        "Các định nghĩa CBRN và Confabulation đủ, nhưng định nghĩa Data Privacy ở cuối bị cắt."
+      ],
+      "9": [
+        1,
+        "Đầu chunk là phần tiếp nối Information Security, cuối lại cắt mục Value Chain; chỉ một số định nghĩa ở giữa đầy đủ."
+      ],
+      "10": [
+        1,
+        "Định nghĩa Confabulation đầy đủ, nhưng đoạn giải thích cơ chế mô hình bị cắt giữa từ ở cuối."
+      ],
+      "11": [
+        1,
+        "Đầu là mảnh câu từ trang trước; đoạn jailbreaking có ý nghĩa nhưng câu cuối chưa kết thúc."
+      ],
+      "12": [
+        1,
+        "Trộn phần Trustworthy Characteristics của mục trước với Environmental Impacts và cắt giữa câu so sánh năng lượng."
+      ],
+      "13": [
+        1,
+        "Đầu thiếu phần câu trang trước; đoạn model collapse đọc được nhưng nhãn Trustworthy Characteristics bị cắt cuối."
+      ],
+      "14": [
+        1,
+        "Phân biệt misinformation/disinformation rõ, nhưng đoạn deepfakes tiếp theo bị cắt giữa từ."
+      ]
+    },
+    "B": {
+      "5": [
+        2,
+        "Có heading Introduction và đoạn mở đầu hoàn chỉnh, nêu rõ bối cảnh cùng mục đích AI RMF."
+      ],
+      "6": [
+        2,
+        "Hai đoạn về GAI PWG và bốn chủ đề kết thúc trọn câu, có chủ thể và ngữ cảnh."
+      ],
+      "7": [
+        1,
+        "Mục Time scale hoàn chỉnh nhưng đầu chunk vẫn là phần câu từ trang trước."
+      ],
+      "8": [
+        2,
+        "Giữ trọn một định nghĩa CBRN với tên mục và các đối tượng được định nghĩa."
+      ],
+      "9": [
+        0,
+        "Chỉ còn phần cuối định nghĩa Information Security từ trang trước; không có tên rủi ro và thiếu chủ thể để hiểu độc lập."
+      ],
+      "10": [
+        2,
+        "Heading và định nghĩa Confabulation cùng các cách gọi tương đương đầy đủ."
+      ],
+      "11": [
+        1,
+        "Có các câu về text-to-image và media khác, nhưng mở đầu bằng mảnh câu 'unethical behavior' thiếu ngữ cảnh trước."
+      ],
+      "12": [
+        2,
+        "Heading Environmental Impacts và hai đoạn liên quan kết thúc trọn ý; còn lỗi tách chữ từ PDF nhưng vẫn hiểu nội dung."
+      ],
+      "13": [
+        1,
+        "Đoạn model collapse đầy đủ nhưng mở đầu là phần tiếp nối câu chưa có ở chunk này."
+      ],
+      "14": [
+        2,
+        "Giữ đầy đủ hai đoạn phân biệt misinformation và disinformation, đủ điều kiện về chủ ý."
+      ]
+    }
+  },
+  "grounding": {
+    "A": {
+      "T01": [
+        0,
+        "Top-3 ở trang 16, 12, 40, không có bằng chứng về sự khác biệt phòng thí nghiệm và thực tế; còn ngoài phạm vi Appendix A được yêu cầu."
+      ],
+      "T02": [
+        2,
+        "Rank 1 trang 54 có đủ focus groups, small user studies và anonymous surveys, truy được nguồn."
+      ],
+      "T03": [
+        2,
+        "Rank 1 trang 55 nêu đủ người tạo, thời gian, địa điểm, thay đổi và nguồn; hai kết quả còn lại ngoài Appendix A là hạn chế filter riêng."
+      ],
+      "T04": [
+        0,
+        "Top-3 trang 8, 26, 49 nói về rủi ro hoặc xử lý incidents, không xác nhận tình trạng kênh chính thức và database theo bản tài liệu."
+      ],
+      "T05": [
+        2,
+        "Rank 2 trang 57 có đủ logging, recording, analyzing, sharing, change records, version history và metadata."
+      ]
+    },
+    "B": {
+      "T01": [
+        0,
+        "Top-3 là footnote trang 14 và đoạn trang 7, 12; không trả đoạn measurement gaps ở Appendix A."
+      ],
+      "T02": [
+        2,
+        "Rank 1 trang 54 chứa đủ ba hình thức lấy phản hồi được hỏi."
+      ],
+      "T03": [
+        2,
+        "Rank 1 trang 55 chứa đầy đủ các trường provenance metadata; top-3 còn gồm phần chính nên filter compliance không đạt."
+      ],
+      "T04": [
+        2,
+        "Rank 1 trang 56 nêu cả việc chưa có kênh chính thức và sự tồn tại các database công khai, đúng thời điểm tài liệu."
+      ],
+      "T05": [
+        2,
+        "Rank 1 trang 57 chứa toàn bộ các thực hành được hỏi và có nguồn/trang."
+      ]
+    },
+    "C": {
+      "T01": [
+        2,
+        "Filter Appendix A đưa đoạn trang 53 vào rank 3; đoạn này nêu trực tiếp laboratory và real-world settings."
+      ],
+      "T02": [
+        2,
+        "Câu không có filter nên C giữ kết quả B; rank 1 trang 54 đủ ba hình thức phản hồi."
+      ],
+      "T03": [
+        2,
+        "Rank 1 trang 55 đủ các trường metadata; cả top-3 đều thuộc Appendix A."
+      ],
+      "T04": [
+        2,
+        "Câu không có filter, kết quả giống B; rank 1 trang 56 đủ cả hai vế của đáp án."
+      ],
+      "T05": [
+        2,
+        "Câu không có filter, kết quả giống B; rank 1 trang 57 đủ các thực hành và truy được nguồn."
+      ]
+    }
+  },
+  "semantic_miss_review": {
+    "A:D04": "Chunk đầu nói về hậu quả và citation sai do confabulation nhưng không giữ định nghĩa tự tin đưa ra nội dung sai; giữ miss theo quy tắc đủ evidence, cần tác giả rà soát nếu muốn chấp nhận tương đương.",
+    "A:D11": "Có trang 18 nhưng chunk chứa GV-1.3-002, không phải hành động GV-1.2-001 được hỏi.",
+    "A:D14": "Có trang 34 nhưng đoạn truy xuất chỉ đến MS-2.2-002, chưa có quyền withdraw/revoke ở MS-2.2-003.",
+    "B:D03": "Các đoạn về cập nhật tương lai/context of use không trả câu loại trừ speculative risks.",
+    "B:D04": "Các đoạn misinformation và fact-checking không đủ định nghĩa hiện tượng tự tin sinh nội dung sai.",
+    "B:D05": "Không có câu xác nhận chưa có phương pháp đồng thuận về environmental impacts.",
+    "B:D11": "Các đoạn decommissioning, retention và incident reporting không trả hành động GV-1.2-001.",
+    "C:D03": "Giống B; câu không có filter.",
+    "C:D04": "Giống B; câu không có filter.",
+    "C:D05": "Giống B; câu không có filter.",
+    "C:D11": "Filter main_body vẫn không trả đúng hành động GV-1.2-001."
+  }
+}

@@ -1,0 +1,24 @@
+test_actual_quotes_split_and_filters_are_valid (test_preparation.BenchmarkTests.test_actual_quotes_split_and_filters_are_valid) ... ok
+test_modified_frozen_source_is_rejected (test_preparation.BenchmarkTests.test_modified_frozen_source_is_rejected) ... ok
+test_empty_pages_produce_no_chunks (test_preparation.ChunkTests.test_empty_pages_produce_no_chunks) ... ok
+test_fixed_overlap_tail_coverage_and_metadata (test_preparation.ChunkTests.test_fixed_overlap_tail_coverage_and_metadata) ... ok
+test_ids_are_stable_but_distinguish_pages_and_edits (test_preparation.ChunkTests.test_ids_are_stable_but_distinguish_pages_and_edits) ... ok
+test_invalid_parameters_fail (test_preparation.ChunkTests.test_invalid_parameters_fail) ... ok
+test_no_word_boundary_does_not_hang_or_drop_text (test_preparation.ChunkTests.test_no_word_boundary_does_not_hang_or_drop_text) ... ok
+test_paragraphs_headings_and_oversized_blocks_preserve_content (test_preparation.ChunkTests.test_paragraphs_headings_and_oversized_blocks_preserve_content) ... ok
+test_short_heading_chain_and_list_keep_context (test_preparation.ChunkTests.test_short_heading_chain_and_list_keep_context) ... ok
+test_empty_and_failed_pages_keep_physical_numbers (test_preparation.IngestionTests.test_empty_and_failed_pages_keep_physical_numbers) ... ok
+test_unicode_normalization_preserves_paragraphs_and_meaning (test_preparation.IngestionTests.test_unicode_normalization_preserves_paragraphs_and_meaning) ... ok
+test_unreadable_file_fails_instead_of_mocking (test_preparation.IngestionTests.test_unreadable_file_fails_instead_of_mocking) ... ok
+test_correct_quote_on_wrong_page_is_not_a_hit (test_retrieval.MetricTests.test_correct_quote_on_wrong_page_is_not_a_hit) ... ok
+test_documented_alternative_source_is_accepted (test_retrieval.MetricTests.test_documented_alternative_source_is_accepted) ... ok
+test_hit3_does_not_mean_hit1 (test_retrieval.MetricTests.test_hit3_does_not_mean_hit1) ... ok
+test_invalid_vectors_and_gold_filter_are_rejected (test_retrieval.MetricTests.test_invalid_vectors_and_gold_filter_are_rejected) ... ok
+test_partial_evidence_in_two_chunks_is_not_a_primary_hit (test_retrieval.MetricTests.test_partial_evidence_in_two_chunks_is_not_a_primary_hit) ... ok
+test_summary_keeps_strategy_and_split_denominators (test_retrieval.MetricTests.test_summary_keeps_strategy_and_split_denominators) ... ok
+test_transactional_stale_removal_filters_and_rollback (test_retrieval.RealStoreTests.test_transactional_stale_removal_filters_and_rollback) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.167s
+
+OK

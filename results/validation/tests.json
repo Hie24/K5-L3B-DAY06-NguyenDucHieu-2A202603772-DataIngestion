@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-11-14T04:28:43.859126+00:00",
+  "tests_run": 19,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "real_pgvector": true
+}
