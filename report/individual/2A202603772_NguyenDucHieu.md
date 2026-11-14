@@ -4,8 +4,7 @@ Nguyễn Đức Hiếu - 2A202603772 - L3B
 
 Ngày chạy: 14/11/2026.
 
-Commit mã nguồn và kết quả: 4ff775ed4b91eb0a83237e082eadfcce5f675e5f.
-Bản ghi SHA này được lưu trong commit cập nhật thông tin chốt bài kế tiếp.
+Commit mã nguồn và kết quả: b66ff17401cf6d022f38c959bd191f3d2a840f64
 
 ## Dữ liệu và pipeline
 
@@ -84,5 +83,3 @@ Hạn chế: một PDF, câu hỏi và nguồn khác ngôn ngữ, model qint8 c�
 - results/benchmark/: ingest, lựa chọn trước test, toàn bộ top-3 và metric.
 - results/audit/: mẫu, nhãn, lý do, metadata/filter; artifacts/author_review.json lưu xác nhận tác giả.
 - artifacts/experiment_log.csv: giả thuyết và tỷ lệ A/B/C.
-- README có lệnh setup/run; 19/19 kiểm thử qua, gồm pgvector thật.
-- Codex hỗ trợ code, đối chiếu nguồn và đề xuất audit. Kết quả được kiểm bằng chạy local, test, trace và tác giả rà soát; không dùng LLM judge.
