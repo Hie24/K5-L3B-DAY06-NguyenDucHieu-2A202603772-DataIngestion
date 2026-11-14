@@ -4,7 +4,8 @@ Nguyễn Đức Hiếu - 2A202603772 - L3B
 
 Ngày chạy: 14/11/2026.
 
-Thông tin commit được cập nhật sau khi chốt snapshot mã nguồn và kết quả.
+Commit mã nguồn và kết quả: 4ff775ed4b91eb0a83237e082eadfcce5f675e5f.
+Bản ghi SHA này được lưu trong commit cập nhật thông tin chốt bài kế tiếp.
 
 ## Dữ liệu và pipeline
 
